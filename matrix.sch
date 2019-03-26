@@ -1,0 +1,3756 @@
+EESchema Schematic File Version 4
+LIBS:south-chonk-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title "South Chonk Matrix"
+Date "2019-03-26"
+Rev "1"
+Comp "Peioris Boards"
+Comment1 "65% Layout"
+Comment2 "Top Row: Regular Backspace, Split Backspace"
+Comment3 "Bottom Row: Regular, AEK"
+Comment4 ""
+$EndDescr
+Text HLabel 1650 1000 1    50   BiDi ~ 0
+colA
+Text HLabel 2075 1000 1    50   3State ~ 0
+colB
+Text HLabel 2500 1000 1    50   3State ~ 0
+colC
+Text HLabel 2925 1000 1    50   3State ~ 0
+colD
+Text HLabel 3475 1000 1    50   3State ~ 0
+colE
+Text HLabel 3900 1000 1    50   3State ~ 0
+colF
+Text HLabel 4325 1000 1    50   3State ~ 0
+colG
+Text HLabel 4875 1000 1    50   3State ~ 0
+colH
+Text HLabel 5300 1000 1    50   3State ~ 0
+colI
+Text HLabel 5725 1000 1    50   3State ~ 0
+colJ
+Text HLabel 6150 1000 1    50   3State ~ 0
+colK
+Text HLabel 1175 1800 0    50   3State ~ 0
+row0a
+Text HLabel 1175 2675 0    50   3State ~ 0
+row1a
+Text HLabel 1175 3550 0    50   3State ~ 0
+row2a
+Text HLabel 1175 4425 0    50   3State ~ 0
+row3a
+Text HLabel 1175 5300 0    50   3State ~ 0
+row4a
+Text HLabel 1175 6175 0    50   3State ~ 0
+row5a
+$Comp
+L MX_Alps_Hybrids:MX-1U MX1
+U 1 1 5C997CF1
+P 1400 1275
+F 0 "MX1" H 1486 1492 60  0000 C CNN
+F 1 "MX-1U" H 1486 1418 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 1375 1250 60  0001 C CNN
+F 3 "" H 1375 1250 60  0001 C CNN
+	1    1400 1275
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D1
+U 1 1 5C997D86
+P 1375 1750
+F 0 "D1" H 1247 1700 60  0000 R CNN
+F 1 "D" V 1525 1700 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 1375 1750 60  0001 C CNN
+F 3 "" H 1375 1750 60  0000 C CNN
+	1    1375 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1375 1450 1375 1600
+NoConn ~ 1425 1400
+NoConn ~ 1525 1300
+$Comp
+L MX_Alps_Hybrids:MX-1U MX2
+U 1 1 5C99802E
+P 1825 1275
+F 0 "MX2" H 1911 1492 60  0000 C CNN
+F 1 "MX-1U" H 1911 1418 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 1800 1250 60  0001 C CNN
+F 3 "" H 1800 1250 60  0001 C CNN
+	1    1825 1275
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D2
+U 1 1 5C998035
+P 1800 1750
+F 0 "D2" H 1672 1700 60  0000 R CNN
+F 1 "D" V 1950 1700 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 1800 1750 60  0001 C CNN
+F 3 "" H 1800 1750 60  0000 C CNN
+	1    1800 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1800 1450 1800 1600
+NoConn ~ 1850 1400
+NoConn ~ 1950 1300
+$Comp
+L MX_Alps_Hybrids:MX-1U MX3
+U 1 1 5C99804A
+P 2250 1275
+F 0 "MX3" H 2336 1492 60  0000 C CNN
+F 1 "MX-1U" H 2336 1418 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 2225 1250 60  0001 C CNN
+F 3 "" H 2225 1250 60  0001 C CNN
+	1    2250 1275
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D3
+U 1 1 5C998051
+P 2225 1750
+F 0 "D3" H 2097 1700 60  0000 R CNN
+F 1 "D" V 2375 1700 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 2225 1750 60  0001 C CNN
+F 3 "" H 2225 1750 60  0000 C CNN
+	1    2225 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2225 1450 2225 1600
+NoConn ~ 2275 1400
+NoConn ~ 2375 1300
+$Comp
+L MX_Alps_Hybrids:MX-1U MX4
+U 1 1 5C99806E
+P 2675 1275
+F 0 "MX4" H 2761 1492 60  0000 C CNN
+F 1 "MX-1U" H 2761 1418 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 2650 1250 60  0001 C CNN
+F 3 "" H 2650 1250 60  0001 C CNN
+	1    2675 1275
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D4
+U 1 1 5C998075
+P 2650 1750
+F 0 "D4" H 2522 1700 60  0000 R CNN
+F 1 "D" V 2800 1700 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 2650 1750 60  0001 C CNN
+F 3 "" H 2650 1750 60  0000 C CNN
+	1    2650 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2650 1450 2650 1600
+NoConn ~ 2700 1400
+NoConn ~ 2800 1300
+$Comp
+L MX_Alps_Hybrids:MX-1U MX5
+U 1 1 5C9984A6
+P 3650 1275
+F 0 "MX5" H 3736 1492 60  0000 C CNN
+F 1 "MX-1U" H 3736 1418 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 3625 1250 60  0001 C CNN
+F 3 "" H 3625 1250 60  0001 C CNN
+	1    3650 1275
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D5
+U 1 1 5C9984AD
+P 3625 1750
+F 0 "D5" H 3497 1700 60  0000 R CNN
+F 1 "D" V 3775 1700 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 3625 1750 60  0001 C CNN
+F 3 "" H 3625 1750 60  0000 C CNN
+	1    3625 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3625 1450 3625 1600
+NoConn ~ 3675 1400
+NoConn ~ 3775 1300
+$Comp
+L keyboard_parts:D D6
+U 1 1 5C9985CF
+P 4600 1750
+F 0 "D6" H 4472 1700 60  0000 R CNN
+F 1 "D" V 4750 1700 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 4600 1750 60  0001 C CNN
+F 3 "" H 4600 1750 60  0000 C CNN
+	1    4600 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4600 1450 4600 1600
+NoConn ~ 4650 1400
+NoConn ~ 4750 1300
+$Comp
+L MX_Alps_Hybrids:MX-1U MX7
+U 1 1 5C998839
+P 5475 1275
+F 0 "MX7" H 5561 1492 60  0000 C CNN
+F 1 "MX-1U" H 5561 1418 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 5450 1250 60  0001 C CNN
+F 3 "" H 5450 1250 60  0001 C CNN
+	1    5475 1275
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D7
+U 1 1 5C998840
+P 5450 1750
+F 0 "D7" H 5322 1700 60  0000 R CNN
+F 1 "D" V 5600 1700 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 5450 1750 60  0001 C CNN
+F 3 "" H 5450 1750 60  0000 C CNN
+	1    5450 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5450 1450 5450 1600
+NoConn ~ 5500 1400
+NoConn ~ 5600 1300
+$Comp
+L MX_Alps_Hybrids:MX-1U MX8
+U 1 1 5C9988E9
+P 5900 1275
+F 0 "MX8" H 5986 1492 60  0000 C CNN
+F 1 "MX-1U" H 5986 1418 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 5875 1250 60  0001 C CNN
+F 3 "" H 5875 1250 60  0001 C CNN
+	1    5900 1275
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D8
+U 1 1 5C9988F0
+P 5875 1750
+F 0 "D8" H 5747 1700 60  0000 R CNN
+F 1 "D" V 6025 1700 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 5875 1750 60  0001 C CNN
+F 3 "" H 5875 1750 60  0000 C CNN
+	1    5875 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5875 1450 5875 1600
+NoConn ~ 5925 1400
+NoConn ~ 6025 1300
+$Comp
+L MX_Alps_Hybrids:MX-1U MX9
+U 1 1 5C998A75
+P 6325 1275
+F 0 "MX9" H 6411 1492 60  0000 C CNN
+F 1 "MX-1U" H 6411 1418 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 6300 1250 60  0001 C CNN
+F 3 "" H 6300 1250 60  0001 C CNN
+	1    6325 1275
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D9
+U 1 1 5C998A7C
+P 6300 1750
+F 0 "D9" H 6172 1700 60  0000 R CNN
+F 1 "D" V 6450 1700 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 6300 1750 60  0001 C CNN
+F 3 "" H 6300 1750 60  0000 C CNN
+	1    6300 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6300 1450 6300 1600
+NoConn ~ 6350 1400
+NoConn ~ 6450 1300
+$Comp
+L MX_Alps_Hybrids:MX-1U MX10
+U 1 1 5C998B68
+P 6750 1275
+F 0 "MX10" H 6836 1492 60  0000 C CNN
+F 1 "MX-1U" H 6836 1418 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 6725 1250 60  0001 C CNN
+F 3 "" H 6725 1250 60  0001 C CNN
+	1    6750 1275
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D10
+U 1 1 5C998B6F
+P 6725 1750
+F 0 "D10" H 6597 1700 60  0000 R CNN
+F 1 "D" V 6875 1700 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 6725 1750 60  0001 C CNN
+F 3 "" H 6725 1750 60  0000 C CNN
+	1    6725 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6725 1450 6725 1600
+NoConn ~ 6775 1400
+NoConn ~ 6875 1300
+$Comp
+L MX_Alps_Hybrids:MX-1U MX11
+U 1 1 5C998DB9
+P 7175 1275
+F 0 "MX11" H 7261 1492 60  0000 C CNN
+F 1 "MX-1U" H 7261 1418 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 7150 1250 60  0001 C CNN
+F 3 "" H 7150 1250 60  0001 C CNN
+	1    7175 1275
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D11
+U 1 1 5C998DC0
+P 7150 1750
+F 0 "D11" H 7022 1700 60  0000 R CNN
+F 1 "D" V 7300 1700 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 7150 1750 60  0001 C CNN
+F 3 "" H 7150 1750 60  0000 C CNN
+	1    7150 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7150 1450 7150 1600
+NoConn ~ 7200 1400
+NoConn ~ 7300 1300
+$Comp
+L MX_Alps_Hybrids:MX-1U MX12
+U 1 1 5C998FDE
+P 7600 1275
+F 0 "MX12" H 7686 1492 60  0000 C CNN
+F 1 "MX-1U" H 7686 1418 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 7575 1250 60  0001 C CNN
+F 3 "" H 7575 1250 60  0001 C CNN
+	1    7600 1275
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D12
+U 1 1 5C998FE5
+P 7575 1750
+F 0 "D12" H 7447 1700 60  0000 R CNN
+F 1 "D" V 7725 1700 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 7575 1750 60  0001 C CNN
+F 3 "" H 7575 1750 60  0000 C CNN
+	1    7575 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7575 1450 7575 1600
+NoConn ~ 7625 1400
+NoConn ~ 7725 1300
+$Comp
+L MX_Alps_Hybrids:MX-1U MX13
+U 1 1 5C998FEF
+P 8025 1275
+F 0 "MX13" H 8111 1492 60  0000 C CNN
+F 1 "MX-1U" H 8111 1418 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 8000 1250 60  0001 C CNN
+F 3 "" H 8000 1250 60  0001 C CNN
+	1    8025 1275
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D13
+U 1 1 5C998FF6
+P 8000 1750
+F 0 "D13" H 7872 1700 60  0000 R CNN
+F 1 "D" V 8150 1700 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 8000 1750 60  0001 C CNN
+F 3 "" H 8000 1750 60  0000 C CNN
+	1    8000 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8000 1450 8000 1600
+NoConn ~ 8050 1400
+NoConn ~ 8150 1300
+$Comp
+L MX_Alps_Hybrids:MX-1U MX14
+U 1 1 5C999000
+P 8450 1275
+F 0 "MX14" H 8536 1492 60  0000 C CNN
+F 1 "MX-1U" H 8536 1418 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 8425 1250 60  0001 C CNN
+F 3 "" H 8425 1250 60  0001 C CNN
+	1    8450 1275
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D14
+U 1 1 5C999007
+P 8425 1750
+F 0 "D14" H 8297 1700 60  0000 R CNN
+F 1 "D" V 8575 1700 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 8425 1750 60  0001 C CNN
+F 3 "" H 8425 1750 60  0000 C CNN
+	1    8425 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8425 1450 8425 1600
+NoConn ~ 8475 1400
+NoConn ~ 8575 1300
+$Comp
+L MX_Alps_Hybrids:MX-1U MX15
+U 1 1 5C999011
+P 8875 1275
+F 0 "MX15" H 8961 1492 60  0000 C CNN
+F 1 "MX-1U" H 8961 1418 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 8850 1250 60  0001 C CNN
+F 3 "" H 8850 1250 60  0001 C CNN
+	1    8875 1275
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D15
+U 1 1 5C999018
+P 8850 1750
+F 0 "D15" H 8722 1700 60  0000 R CNN
+F 1 "D" V 9000 1700 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 8850 1750 60  0001 C CNN
+F 3 "" H 8850 1750 60  0000 C CNN
+	1    8850 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8850 1450 8850 1600
+NoConn ~ 8900 1400
+NoConn ~ 9000 1300
+$Comp
+L MX_Alps_Hybrids:MX-1U MX16
+U 1 1 5C999022
+P 9300 1275
+F 0 "MX16" H 9386 1492 60  0000 C CNN
+F 1 "MX-1U" H 9386 1418 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 9275 1250 60  0001 C CNN
+F 3 "" H 9275 1250 60  0001 C CNN
+	1    9300 1275
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D16
+U 1 1 5C999029
+P 9275 1750
+F 0 "D16" H 9147 1700 60  0000 R CNN
+F 1 "D" V 9425 1700 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 9275 1750 60  0001 C CNN
+F 3 "" H 9275 1750 60  0000 C CNN
+	1    9275 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9275 1450 9275 1600
+NoConn ~ 9325 1400
+NoConn ~ 9425 1300
+$Comp
+L MX_Alps_Hybrids:MX-1U MX17
+U 1 1 5C999033
+P 9725 1275
+F 0 "MX17" H 9811 1492 60  0000 C CNN
+F 1 "MX-1U" H 9811 1418 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 9700 1250 60  0001 C CNN
+F 3 "" H 9700 1250 60  0001 C CNN
+	1    9725 1275
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D17
+U 1 1 5C99903A
+P 9700 1750
+F 0 "D17" H 9572 1700 60  0000 R CNN
+F 1 "D" V 9850 1700 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 9700 1750 60  0001 C CNN
+F 3 "" H 9700 1750 60  0000 C CNN
+	1    9700 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9700 1450 9700 1600
+NoConn ~ 9750 1400
+NoConn ~ 9850 1300
+$Comp
+L MX_Alps_Hybrids:MX-1U MX18
+U 1 1 5C999044
+P 10150 1275
+F 0 "MX18" H 10236 1492 60  0000 C CNN
+F 1 "MX-1U" H 10236 1418 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 10125 1250 60  0001 C CNN
+F 3 "" H 10125 1250 60  0001 C CNN
+	1    10150 1275
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D18
+U 1 1 5C99904B
+P 10125 1750
+F 0 "D18" H 9997 1700 60  0000 R CNN
+F 1 "D" V 10275 1700 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 10125 1750 60  0001 C CNN
+F 3 "" H 10125 1750 60  0000 C CNN
+	1    10125 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10125 1450 10125 1600
+NoConn ~ 10175 1400
+NoConn ~ 10275 1300
+Wire Wire Line
+	1375 1800 1800 1800
+Connection ~ 1800 1800
+Wire Wire Line
+	1800 1800 2225 1800
+Connection ~ 2225 1800
+Wire Wire Line
+	2225 1800 2650 1800
+Connection ~ 2650 1800
+Connection ~ 3625 1800
+Connection ~ 4600 1800
+Connection ~ 5450 1800
+Wire Wire Line
+	5450 1800 5875 1800
+Wire Wire Line
+	6300 1800 6725 1800
+Connection ~ 6725 1800
+Connection ~ 7575 1800
+Wire Wire Line
+	7575 1800 8000 1800
+Connection ~ 8000 1800
+Wire Wire Line
+	8000 1800 8425 1800
+Connection ~ 8425 1800
+Wire Wire Line
+	8425 1800 8850 1800
+Connection ~ 8850 1800
+Wire Wire Line
+	8850 1800 9275 1800
+Connection ~ 9275 1800
+Wire Wire Line
+	9275 1800 9700 1800
+Connection ~ 9700 1800
+Wire Wire Line
+	9700 1800 10125 1800
+$Comp
+L MX_Alps_Hybrids:MX-1U MX19
+U 1 1 5C99C746
+P 1400 2150
+F 0 "MX19" H 1486 2367 60  0000 C CNN
+F 1 "MX-1U" H 1486 2293 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 1375 2125 60  0001 C CNN
+F 3 "" H 1375 2125 60  0001 C CNN
+	1    1400 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D19
+U 1 1 5C99C74D
+P 1375 2625
+F 0 "D19" H 1247 2575 60  0000 R CNN
+F 1 "D" V 1525 2575 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 1375 2625 60  0001 C CNN
+F 3 "" H 1375 2625 60  0000 C CNN
+	1    1375 2625
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1375 2325 1375 2475
+NoConn ~ 1425 2275
+NoConn ~ 1525 2175
+$Comp
+L MX_Alps_Hybrids:MX-1U MX20
+U 1 1 5C99C757
+P 1825 2150
+F 0 "MX20" H 1911 2367 60  0000 C CNN
+F 1 "MX-1U" H 1911 2293 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 1800 2125 60  0001 C CNN
+F 3 "" H 1800 2125 60  0001 C CNN
+	1    1825 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D20
+U 1 1 5C99C75E
+P 1800 2625
+F 0 "D20" H 1672 2575 60  0000 R CNN
+F 1 "D" V 1950 2575 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 1800 2625 60  0001 C CNN
+F 3 "" H 1800 2625 60  0000 C CNN
+	1    1800 2625
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1800 2325 1800 2475
+NoConn ~ 1850 2275
+NoConn ~ 1950 2175
+$Comp
+L MX_Alps_Hybrids:MX-1U MX21
+U 1 1 5C99C768
+P 2250 2150
+F 0 "MX21" H 2336 2367 60  0000 C CNN
+F 1 "MX-1U" H 2336 2293 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 2225 2125 60  0001 C CNN
+F 3 "" H 2225 2125 60  0001 C CNN
+	1    2250 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D21
+U 1 1 5C99C76F
+P 2225 2625
+F 0 "D21" H 2097 2575 60  0000 R CNN
+F 1 "D" V 2375 2575 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 2225 2625 60  0001 C CNN
+F 3 "" H 2225 2625 60  0000 C CNN
+	1    2225 2625
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2225 2325 2225 2475
+NoConn ~ 2275 2275
+NoConn ~ 2375 2175
+$Comp
+L MX_Alps_Hybrids:MX-1U MX22
+U 1 1 5C99C779
+P 2675 2150
+F 0 "MX22" H 2761 2367 60  0000 C CNN
+F 1 "MX-1U" H 2761 2293 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 2650 2125 60  0001 C CNN
+F 3 "" H 2650 2125 60  0001 C CNN
+	1    2675 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D22
+U 1 1 5C99C780
+P 2650 2625
+F 0 "D22" H 2522 2575 60  0000 R CNN
+F 1 "D" V 2800 2575 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 2650 2625 60  0001 C CNN
+F 3 "" H 2650 2625 60  0000 C CNN
+	1    2650 2625
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2650 2325 2650 2475
+NoConn ~ 2700 2275
+NoConn ~ 2800 2175
+$Comp
+L MX_Alps_Hybrids:MX-1U MX23
+U 1 1 5C99C78A
+P 3225 2150
+F 0 "MX23" H 3311 2367 60  0000 C CNN
+F 1 "MX-1U" H 3311 2293 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 3200 2125 60  0001 C CNN
+F 3 "" H 3200 2125 60  0001 C CNN
+	1    3225 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D23
+U 1 1 5C99C791
+P 3200 2625
+F 0 "D23" H 3072 2575 60  0000 R CNN
+F 1 "D" V 3350 2575 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 3200 2625 60  0001 C CNN
+F 3 "" H 3200 2625 60  0000 C CNN
+	1    3200 2625
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3200 2325 3200 2475
+NoConn ~ 3250 2275
+NoConn ~ 3350 2175
+$Comp
+L MX_Alps_Hybrids:MX-1U MX24
+U 1 1 5C99C79B
+P 3650 2150
+F 0 "MX24" H 3736 2367 60  0000 C CNN
+F 1 "MX-1U" H 3736 2293 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 3625 2125 60  0001 C CNN
+F 3 "" H 3625 2125 60  0001 C CNN
+	1    3650 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D24
+U 1 1 5C99C7A2
+P 3625 2625
+F 0 "D24" H 3497 2575 60  0000 R CNN
+F 1 "D" V 3775 2575 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 3625 2625 60  0001 C CNN
+F 3 "" H 3625 2625 60  0000 C CNN
+	1    3625 2625
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3625 2325 3625 2475
+NoConn ~ 3675 2275
+NoConn ~ 3775 2175
+$Comp
+L MX_Alps_Hybrids:MX-1U MX25
+U 1 1 5C99C7AC
+P 4075 2150
+F 0 "MX25" H 4161 2367 60  0000 C CNN
+F 1 "MX-1U" H 4161 2293 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 4050 2125 60  0001 C CNN
+F 3 "" H 4050 2125 60  0001 C CNN
+	1    4075 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D25
+U 1 1 5C99C7B3
+P 4050 2625
+F 0 "D25" H 3922 2575 60  0000 R CNN
+F 1 "D" V 4200 2575 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 4050 2625 60  0001 C CNN
+F 3 "" H 4050 2625 60  0000 C CNN
+	1    4050 2625
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4050 2325 4050 2475
+NoConn ~ 4100 2275
+NoConn ~ 4200 2175
+$Comp
+L MX_Alps_Hybrids:MX-1U MX26
+U 1 1 5C99C7BD
+P 4625 2150
+F 0 "MX26" H 4711 2367 60  0000 C CNN
+F 1 "MX-1U" H 4711 2293 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 4600 2125 60  0001 C CNN
+F 3 "" H 4600 2125 60  0001 C CNN
+	1    4625 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D26
+U 1 1 5C99C7C4
+P 4600 2625
+F 0 "D26" H 4472 2575 60  0000 R CNN
+F 1 "D" V 4750 2575 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 4600 2625 60  0001 C CNN
+F 3 "" H 4600 2625 60  0000 C CNN
+	1    4600 2625
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4600 2325 4600 2475
+NoConn ~ 4650 2275
+NoConn ~ 4750 2175
+$Comp
+L MX_Alps_Hybrids:MX-1U MX27
+U 1 1 5C99C7CE
+P 5050 2150
+F 0 "MX27" H 5136 2367 60  0000 C CNN
+F 1 "MX-1U" H 5136 2293 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 5025 2125 60  0001 C CNN
+F 3 "" H 5025 2125 60  0001 C CNN
+	1    5050 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D27
+U 1 1 5C99C7D5
+P 5025 2625
+F 0 "D27" H 4897 2575 60  0000 R CNN
+F 1 "D" V 5175 2575 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 5025 2625 60  0001 C CNN
+F 3 "" H 5025 2625 60  0000 C CNN
+	1    5025 2625
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5025 2325 5025 2475
+NoConn ~ 5075 2275
+NoConn ~ 5175 2175
+$Comp
+L MX_Alps_Hybrids:MX-1U MX28
+U 1 1 5C99C7DF
+P 5475 2150
+F 0 "MX28" H 5561 2367 60  0000 C CNN
+F 1 "MX-1U" H 5561 2293 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 5450 2125 60  0001 C CNN
+F 3 "" H 5450 2125 60  0001 C CNN
+	1    5475 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D28
+U 1 1 5C99C7E6
+P 5450 2625
+F 0 "D28" H 5322 2575 60  0000 R CNN
+F 1 "D" V 5600 2575 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 5450 2625 60  0001 C CNN
+F 3 "" H 5450 2625 60  0000 C CNN
+	1    5450 2625
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5450 2325 5450 2475
+NoConn ~ 5500 2275
+NoConn ~ 5600 2175
+$Comp
+L MX_Alps_Hybrids:MX-1U MX29
+U 1 1 5C99C7F0
+P 5900 2150
+F 0 "MX29" H 5986 2367 60  0000 C CNN
+F 1 "MX-1U" H 5986 2293 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 5875 2125 60  0001 C CNN
+F 3 "" H 5875 2125 60  0001 C CNN
+	1    5900 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D29
+U 1 1 5C99C7F7
+P 5875 2625
+F 0 "D29" H 5747 2575 60  0000 R CNN
+F 1 "D" V 6025 2575 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 5875 2625 60  0001 C CNN
+F 3 "" H 5875 2625 60  0000 C CNN
+	1    5875 2625
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5875 2325 5875 2475
+NoConn ~ 5925 2275
+NoConn ~ 6025 2175
+$Comp
+L MX_Alps_Hybrids:MX-1U MX30
+U 1 1 5C99C801
+P 6325 2150
+F 0 "MX30" H 6411 2367 60  0000 C CNN
+F 1 "MX-1U" H 6411 2293 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 6300 2125 60  0001 C CNN
+F 3 "" H 6300 2125 60  0001 C CNN
+	1    6325 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D30
+U 1 1 5C99C808
+P 6300 2625
+F 0 "D30" H 6172 2575 60  0000 R CNN
+F 1 "D" V 6450 2575 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 6300 2625 60  0001 C CNN
+F 3 "" H 6300 2625 60  0000 C CNN
+	1    6300 2625
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6300 2325 6300 2475
+NoConn ~ 6350 2275
+NoConn ~ 6450 2175
+$Comp
+L MX_Alps_Hybrids:MX-1U MX31
+U 1 1 5C99C812
+P 6750 2150
+F 0 "MX31" H 6836 2367 60  0000 C CNN
+F 1 "MX-1U" H 6836 2293 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 6725 2125 60  0001 C CNN
+F 3 "" H 6725 2125 60  0001 C CNN
+	1    6750 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D31
+U 1 1 5C99C819
+P 6725 2625
+F 0 "D31" H 6597 2575 60  0000 R CNN
+F 1 "D" V 6875 2575 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 6725 2625 60  0001 C CNN
+F 3 "" H 6725 2625 60  0000 C CNN
+	1    6725 2625
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6725 2325 6725 2475
+NoConn ~ 6775 2275
+NoConn ~ 6875 2175
+$Comp
+L MX_Alps_Hybrids:MX-1U MX32
+U 1 1 5C99C823
+P 7175 2150
+F 0 "MX32" H 7261 2367 60  0000 C CNN
+F 1 "MX-1U" H 7261 2293 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 7150 2125 60  0001 C CNN
+F 3 "" H 7150 2125 60  0001 C CNN
+	1    7175 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D32
+U 1 1 5C99C82A
+P 7150 2625
+F 0 "D32" H 7022 2575 60  0000 R CNN
+F 1 "D" V 7300 2575 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 7150 2625 60  0001 C CNN
+F 3 "" H 7150 2625 60  0000 C CNN
+	1    7150 2625
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7150 2325 7150 2475
+NoConn ~ 7200 2275
+NoConn ~ 7300 2175
+$Comp
+L MX_Alps_Hybrids:MX-1U MX33
+U 1 1 5C99C834
+P 7600 2150
+F 0 "MX33" H 7686 2367 60  0000 C CNN
+F 1 "MX-1U" H 7686 2293 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 7575 2125 60  0001 C CNN
+F 3 "" H 7575 2125 60  0001 C CNN
+	1    7600 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D33
+U 1 1 5C99C83B
+P 7575 2625
+F 0 "D33" H 7447 2575 60  0000 R CNN
+F 1 "D" V 7725 2575 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 7575 2625 60  0001 C CNN
+F 3 "" H 7575 2625 60  0000 C CNN
+	1    7575 2625
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7575 2325 7575 2475
+NoConn ~ 7625 2275
+NoConn ~ 7725 2175
+$Comp
+L MX_Alps_Hybrids:MX-1U MX34
+U 1 1 5C99C845
+P 8025 2150
+F 0 "MX34" H 8111 2367 60  0000 C CNN
+F 1 "MX-1U" H 8111 2293 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 8000 2125 60  0001 C CNN
+F 3 "" H 8000 2125 60  0001 C CNN
+	1    8025 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D34
+U 1 1 5C99C84C
+P 8000 2625
+F 0 "D34" H 7872 2575 60  0000 R CNN
+F 1 "D" V 8150 2575 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 8000 2625 60  0001 C CNN
+F 3 "" H 8000 2625 60  0000 C CNN
+	1    8000 2625
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8000 2325 8000 2475
+NoConn ~ 8050 2275
+NoConn ~ 8150 2175
+$Comp
+L MX_Alps_Hybrids:MX-1U MX35
+U 1 1 5C99C856
+P 8450 2150
+F 0 "MX35" H 8536 2367 60  0000 C CNN
+F 1 "MX-1U" H 8536 2293 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 8425 2125 60  0001 C CNN
+F 3 "" H 8425 2125 60  0001 C CNN
+	1    8450 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D35
+U 1 1 5C99C85D
+P 8425 2625
+F 0 "D35" H 8297 2575 60  0000 R CNN
+F 1 "D" V 8575 2575 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 8425 2625 60  0001 C CNN
+F 3 "" H 8425 2625 60  0000 C CNN
+	1    8425 2625
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8425 2325 8425 2475
+NoConn ~ 8475 2275
+NoConn ~ 8575 2175
+$Comp
+L MX_Alps_Hybrids:MX-1U MX36
+U 1 1 5C99C867
+P 8875 2150
+F 0 "MX36" H 8961 2367 60  0000 C CNN
+F 1 "MX-1U" H 8961 2293 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 8850 2125 60  0001 C CNN
+F 3 "" H 8850 2125 60  0001 C CNN
+	1    8875 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D36
+U 1 1 5C99C86E
+P 8850 2625
+F 0 "D36" H 8722 2575 60  0000 R CNN
+F 1 "D" V 9000 2575 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 8850 2625 60  0001 C CNN
+F 3 "" H 8850 2625 60  0000 C CNN
+	1    8850 2625
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8850 2325 8850 2475
+NoConn ~ 8900 2275
+NoConn ~ 9000 2175
+$Comp
+L MX_Alps_Hybrids:MX-1U MX37
+U 1 1 5C99C878
+P 9300 2150
+F 0 "MX37" H 9386 2367 60  0000 C CNN
+F 1 "MX-1U" H 9386 2293 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 9275 2125 60  0001 C CNN
+F 3 "" H 9275 2125 60  0001 C CNN
+	1    9300 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D37
+U 1 1 5C99C87F
+P 9275 2625
+F 0 "D37" H 9147 2575 60  0000 R CNN
+F 1 "D" V 9425 2575 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 9275 2625 60  0001 C CNN
+F 3 "" H 9275 2625 60  0000 C CNN
+	1    9275 2625
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9275 2325 9275 2475
+NoConn ~ 9325 2275
+NoConn ~ 9425 2175
+$Comp
+L MX_Alps_Hybrids:MX-1U MX38
+U 1 1 5C99C889
+P 9725 2150
+F 0 "MX38" H 9811 2367 60  0000 C CNN
+F 1 "MX-1U" H 9811 2293 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 9700 2125 60  0001 C CNN
+F 3 "" H 9700 2125 60  0001 C CNN
+	1    9725 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D38
+U 1 1 5C99C890
+P 9700 2625
+F 0 "D38" H 9572 2575 60  0000 R CNN
+F 1 "D" V 9850 2575 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 9700 2625 60  0001 C CNN
+F 3 "" H 9700 2625 60  0000 C CNN
+	1    9700 2625
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9700 2325 9700 2475
+NoConn ~ 9750 2275
+NoConn ~ 9850 2175
+$Comp
+L keyboard_parts:D D39
+U 1 1 5C99C8A1
+P 10125 2625
+F 0 "D39" H 9997 2575 60  0000 R CNN
+F 1 "D" V 10275 2575 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 10125 2625 60  0001 C CNN
+F 3 "" H 10125 2625 60  0000 C CNN
+	1    10125 2625
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10125 2325 10125 2475
+NoConn ~ 10175 2275
+NoConn ~ 10275 2175
+Wire Wire Line
+	1375 2675 1800 2675
+Connection ~ 1800 2675
+Wire Wire Line
+	1800 2675 2225 2675
+Connection ~ 2225 2675
+Wire Wire Line
+	2225 2675 2650 2675
+Connection ~ 2650 2675
+Wire Wire Line
+	2650 2675 3200 2675
+Connection ~ 3200 2675
+Wire Wire Line
+	3200 2675 3625 2675
+Connection ~ 3625 2675
+Wire Wire Line
+	3625 2675 4050 2675
+Connection ~ 4050 2675
+Wire Wire Line
+	4050 2675 4600 2675
+Connection ~ 4600 2675
+Wire Wire Line
+	4600 2675 5025 2675
+Connection ~ 5025 2675
+Wire Wire Line
+	5025 2675 5450 2675
+Connection ~ 5450 2675
+Wire Wire Line
+	5450 2675 5875 2675
+Wire Wire Line
+	6300 2675 6725 2675
+Connection ~ 6725 2675
+Wire Wire Line
+	6725 2675 7150 2675
+Connection ~ 7150 2675
+Wire Wire Line
+	7150 2675 7575 2675
+Connection ~ 7575 2675
+Wire Wire Line
+	7575 2675 8000 2675
+Connection ~ 8000 2675
+Wire Wire Line
+	8000 2675 8425 2675
+Connection ~ 8425 2675
+Wire Wire Line
+	8425 2675 8850 2675
+Connection ~ 8850 2675
+Wire Wire Line
+	8850 2675 9275 2675
+Connection ~ 9275 2675
+Wire Wire Line
+	9275 2675 9700 2675
+Connection ~ 9700 2675
+$Comp
+L MX_Alps_Hybrids:MX-1U MX40
+U 1 1 5C99E228
+P 1400 3025
+F 0 "MX40" H 1486 3242 60  0000 C CNN
+F 1 "MX-1U" H 1486 3168 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 1375 3000 60  0001 C CNN
+F 3 "" H 1375 3000 60  0001 C CNN
+	1    1400 3025
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D40
+U 1 1 5C99E22F
+P 1375 3500
+F 0 "D40" H 1247 3450 60  0000 R CNN
+F 1 "D" V 1525 3450 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 1375 3500 60  0001 C CNN
+F 3 "" H 1375 3500 60  0000 C CNN
+	1    1375 3500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1375 3200 1375 3350
+NoConn ~ 1425 3150
+NoConn ~ 1525 3050
+$Comp
+L MX_Alps_Hybrids:MX-1U MX41
+U 1 1 5C99E239
+P 1825 3025
+F 0 "MX41" H 1911 3242 60  0000 C CNN
+F 1 "MX-1U" H 1911 3168 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 1800 3000 60  0001 C CNN
+F 3 "" H 1800 3000 60  0001 C CNN
+	1    1825 3025
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D41
+U 1 1 5C99E240
+P 1800 3500
+F 0 "D41" H 1672 3450 60  0000 R CNN
+F 1 "D" V 1950 3450 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 1800 3500 60  0001 C CNN
+F 3 "" H 1800 3500 60  0000 C CNN
+	1    1800 3500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1800 3200 1800 3350
+NoConn ~ 1850 3150
+NoConn ~ 1950 3050
+$Comp
+L MX_Alps_Hybrids:MX-1U MX42
+U 1 1 5C99E24A
+P 2250 3025
+F 0 "MX42" H 2336 3242 60  0000 C CNN
+F 1 "MX-1U" H 2336 3168 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 2225 3000 60  0001 C CNN
+F 3 "" H 2225 3000 60  0001 C CNN
+	1    2250 3025
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D42
+U 1 1 5C99E251
+P 2225 3500
+F 0 "D42" H 2097 3450 60  0000 R CNN
+F 1 "D" V 2375 3450 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 2225 3500 60  0001 C CNN
+F 3 "" H 2225 3500 60  0000 C CNN
+	1    2225 3500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2225 3200 2225 3350
+NoConn ~ 2275 3150
+NoConn ~ 2375 3050
+$Comp
+L MX_Alps_Hybrids:MX-1U MX43
+U 1 1 5C99E25B
+P 2675 3025
+F 0 "MX43" H 2761 3242 60  0000 C CNN
+F 1 "MX-1U" H 2761 3168 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 2650 3000 60  0001 C CNN
+F 3 "" H 2650 3000 60  0001 C CNN
+	1    2675 3025
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D43
+U 1 1 5C99E262
+P 2650 3500
+F 0 "D43" H 2522 3450 60  0000 R CNN
+F 1 "D" V 2800 3450 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 2650 3500 60  0001 C CNN
+F 3 "" H 2650 3500 60  0000 C CNN
+	1    2650 3500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2650 3200 2650 3350
+NoConn ~ 2700 3150
+NoConn ~ 2800 3050
+$Comp
+L MX_Alps_Hybrids:MX-1U MX44
+U 1 1 5C99E26C
+P 3225 3025
+F 0 "MX44" H 3311 3242 60  0000 C CNN
+F 1 "MX-1U" H 3311 3168 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 3200 3000 60  0001 C CNN
+F 3 "" H 3200 3000 60  0001 C CNN
+	1    3225 3025
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D44
+U 1 1 5C99E273
+P 3200 3500
+F 0 "D44" H 3072 3450 60  0000 R CNN
+F 1 "D" V 3350 3450 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 3200 3500 60  0001 C CNN
+F 3 "" H 3200 3500 60  0000 C CNN
+	1    3200 3500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3200 3200 3200 3350
+NoConn ~ 3250 3150
+NoConn ~ 3350 3050
+$Comp
+L MX_Alps_Hybrids:MX-1U MX45
+U 1 1 5C99E27D
+P 3650 3025
+F 0 "MX45" H 3736 3242 60  0000 C CNN
+F 1 "MX-1U" H 3736 3168 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 3625 3000 60  0001 C CNN
+F 3 "" H 3625 3000 60  0001 C CNN
+	1    3650 3025
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D45
+U 1 1 5C99E284
+P 3625 3500
+F 0 "D45" H 3497 3450 60  0000 R CNN
+F 1 "D" V 3775 3450 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 3625 3500 60  0001 C CNN
+F 3 "" H 3625 3500 60  0000 C CNN
+	1    3625 3500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3625 3200 3625 3350
+NoConn ~ 3675 3150
+NoConn ~ 3775 3050
+$Comp
+L MX_Alps_Hybrids:MX-1U MX46
+U 1 1 5C99E28E
+P 4075 3025
+F 0 "MX46" H 4161 3242 60  0000 C CNN
+F 1 "MX-1U" H 4161 3168 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 4050 3000 60  0001 C CNN
+F 3 "" H 4050 3000 60  0001 C CNN
+	1    4075 3025
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D46
+U 1 1 5C99E295
+P 4050 3500
+F 0 "D46" H 3922 3450 60  0000 R CNN
+F 1 "D" V 4200 3450 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 4050 3500 60  0001 C CNN
+F 3 "" H 4050 3500 60  0000 C CNN
+	1    4050 3500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4050 3200 4050 3350
+NoConn ~ 4100 3150
+NoConn ~ 4200 3050
+$Comp
+L keyboard_parts:D D47
+U 1 1 5C99E2A6
+P 4600 3500
+F 0 "D47" H 4472 3450 60  0000 R CNN
+F 1 "D" V 4750 3450 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 4600 3500 60  0001 C CNN
+F 3 "" H 4600 3500 60  0000 C CNN
+	1    4600 3500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4600 3200 4600 3350
+NoConn ~ 4650 3150
+NoConn ~ 4750 3050
+$Comp
+L MX_Alps_Hybrids:MX-1U MX48
+U 1 1 5C99E2B0
+P 5050 3025
+F 0 "MX48" H 5136 3242 60  0000 C CNN
+F 1 "MX-1U" H 5136 3168 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 5025 3000 60  0001 C CNN
+F 3 "" H 5025 3000 60  0001 C CNN
+	1    5050 3025
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D48
+U 1 1 5C99E2B7
+P 5025 3500
+F 0 "D48" H 4897 3450 60  0000 R CNN
+F 1 "D" V 5175 3450 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 5025 3500 60  0001 C CNN
+F 3 "" H 5025 3500 60  0000 C CNN
+	1    5025 3500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5025 3200 5025 3350
+NoConn ~ 5075 3150
+NoConn ~ 5175 3050
+$Comp
+L MX_Alps_Hybrids:MX-1U MX49
+U 1 1 5C99E2C1
+P 5475 3025
+F 0 "MX49" H 5561 3242 60  0000 C CNN
+F 1 "MX-1U" H 5561 3168 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 5450 3000 60  0001 C CNN
+F 3 "" H 5450 3000 60  0001 C CNN
+	1    5475 3025
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D49
+U 1 1 5C99E2C8
+P 5450 3500
+F 0 "D49" H 5322 3450 60  0000 R CNN
+F 1 "D" V 5600 3450 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 5450 3500 60  0001 C CNN
+F 3 "" H 5450 3500 60  0000 C CNN
+	1    5450 3500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5450 3200 5450 3350
+NoConn ~ 5500 3150
+NoConn ~ 5600 3050
+$Comp
+L MX_Alps_Hybrids:MX-1U MX50
+U 1 1 5C99E2D2
+P 5900 3025
+F 0 "MX50" H 5986 3242 60  0000 C CNN
+F 1 "MX-1U" H 5986 3168 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 5875 3000 60  0001 C CNN
+F 3 "" H 5875 3000 60  0001 C CNN
+	1    5900 3025
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D50
+U 1 1 5C99E2D9
+P 5875 3500
+F 0 "D50" H 5747 3450 60  0000 R CNN
+F 1 "D" V 6025 3450 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 5875 3500 60  0001 C CNN
+F 3 "" H 5875 3500 60  0000 C CNN
+	1    5875 3500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5875 3200 5875 3350
+NoConn ~ 5925 3150
+NoConn ~ 6025 3050
+$Comp
+L MX_Alps_Hybrids:MX-1U MX51
+U 1 1 5C99E2E3
+P 6325 3025
+F 0 "MX51" H 6411 3242 60  0000 C CNN
+F 1 "MX-1U" H 6411 3168 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 6300 3000 60  0001 C CNN
+F 3 "" H 6300 3000 60  0001 C CNN
+	1    6325 3025
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D51
+U 1 1 5C99E2EA
+P 6300 3500
+F 0 "D51" H 6172 3450 60  0000 R CNN
+F 1 "D" V 6450 3450 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 6300 3500 60  0001 C CNN
+F 3 "" H 6300 3500 60  0000 C CNN
+	1    6300 3500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6300 3200 6300 3350
+NoConn ~ 6350 3150
+NoConn ~ 6450 3050
+$Comp
+L MX_Alps_Hybrids:MX-1U MX52
+U 1 1 5C99E2F4
+P 6750 3025
+F 0 "MX52" H 6836 3242 60  0000 C CNN
+F 1 "MX-1U" H 6836 3168 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 6725 3000 60  0001 C CNN
+F 3 "" H 6725 3000 60  0001 C CNN
+	1    6750 3025
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D52
+U 1 1 5C99E2FB
+P 6725 3500
+F 0 "D52" H 6597 3450 60  0000 R CNN
+F 1 "D" V 6875 3450 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 6725 3500 60  0001 C CNN
+F 3 "" H 6725 3500 60  0000 C CNN
+	1    6725 3500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6725 3200 6725 3350
+NoConn ~ 6775 3150
+NoConn ~ 6875 3050
+$Comp
+L MX_Alps_Hybrids:MX-1U MX53
+U 1 1 5C99E305
+P 7175 3025
+F 0 "MX53" H 7261 3242 60  0000 C CNN
+F 1 "MX-1U" H 7261 3168 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 7150 3000 60  0001 C CNN
+F 3 "" H 7150 3000 60  0001 C CNN
+	1    7175 3025
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D53
+U 1 1 5C99E30C
+P 7150 3500
+F 0 "D53" H 7022 3450 60  0000 R CNN
+F 1 "D" V 7300 3450 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 7150 3500 60  0001 C CNN
+F 3 "" H 7150 3500 60  0000 C CNN
+	1    7150 3500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7150 3200 7150 3350
+NoConn ~ 7200 3150
+NoConn ~ 7300 3050
+$Comp
+L MX_Alps_Hybrids:MX-1U MX54
+U 1 1 5C99E316
+P 7600 3025
+F 0 "MX54" H 7686 3242 60  0000 C CNN
+F 1 "MX-1U" H 7686 3168 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 7575 3000 60  0001 C CNN
+F 3 "" H 7575 3000 60  0001 C CNN
+	1    7600 3025
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D54
+U 1 1 5C99E31D
+P 7575 3500
+F 0 "D54" H 7447 3450 60  0000 R CNN
+F 1 "D" V 7725 3450 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 7575 3500 60  0001 C CNN
+F 3 "" H 7575 3500 60  0000 C CNN
+	1    7575 3500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7575 3200 7575 3350
+NoConn ~ 7625 3150
+NoConn ~ 7725 3050
+$Comp
+L MX_Alps_Hybrids:MX-1U MX55
+U 1 1 5C99E327
+P 8025 3025
+F 0 "MX55" H 8111 3242 60  0000 C CNN
+F 1 "MX-1U" H 8111 3168 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 8000 3000 60  0001 C CNN
+F 3 "" H 8000 3000 60  0001 C CNN
+	1    8025 3025
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D55
+U 1 1 5C99E32E
+P 8000 3500
+F 0 "D55" H 7872 3450 60  0000 R CNN
+F 1 "D" V 8150 3450 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 8000 3500 60  0001 C CNN
+F 3 "" H 8000 3500 60  0000 C CNN
+	1    8000 3500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8000 3200 8000 3350
+NoConn ~ 8050 3150
+NoConn ~ 8150 3050
+$Comp
+L MX_Alps_Hybrids:MX-1U MX56
+U 1 1 5C99E338
+P 8450 3025
+F 0 "MX56" H 8536 3242 60  0000 C CNN
+F 1 "MX-1U" H 8536 3168 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 8425 3000 60  0001 C CNN
+F 3 "" H 8425 3000 60  0001 C CNN
+	1    8450 3025
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D56
+U 1 1 5C99E33F
+P 8425 3500
+F 0 "D56" H 8297 3450 60  0000 R CNN
+F 1 "D" V 8575 3450 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 8425 3500 60  0001 C CNN
+F 3 "" H 8425 3500 60  0000 C CNN
+	1    8425 3500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8425 3200 8425 3350
+NoConn ~ 8475 3150
+NoConn ~ 8575 3050
+$Comp
+L MX_Alps_Hybrids:MX-1U MX57
+U 1 1 5C99E349
+P 8875 3025
+F 0 "MX57" H 8961 3242 60  0000 C CNN
+F 1 "MX-1U" H 8961 3168 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 8850 3000 60  0001 C CNN
+F 3 "" H 8850 3000 60  0001 C CNN
+	1    8875 3025
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D57
+U 1 1 5C99E350
+P 8850 3500
+F 0 "D57" H 8722 3450 60  0000 R CNN
+F 1 "D" V 9000 3450 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 8850 3500 60  0001 C CNN
+F 3 "" H 8850 3500 60  0000 C CNN
+	1    8850 3500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8850 3200 8850 3350
+NoConn ~ 8900 3150
+NoConn ~ 9000 3050
+$Comp
+L MX_Alps_Hybrids:MX-1U MX58
+U 1 1 5C99E35A
+P 9300 3025
+F 0 "MX58" H 9386 3242 60  0000 C CNN
+F 1 "MX-1U" H 9386 3168 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 9275 3000 60  0001 C CNN
+F 3 "" H 9275 3000 60  0001 C CNN
+	1    9300 3025
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D58
+U 1 1 5C99E361
+P 9275 3500
+F 0 "D58" H 9147 3450 60  0000 R CNN
+F 1 "D" V 9425 3450 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 9275 3500 60  0001 C CNN
+F 3 "" H 9275 3500 60  0000 C CNN
+	1    9275 3500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9275 3200 9275 3350
+NoConn ~ 9325 3150
+NoConn ~ 9425 3050
+$Comp
+L MX_Alps_Hybrids:MX-1U MX59
+U 1 1 5C99E36B
+P 9725 3025
+F 0 "MX59" H 9811 3242 60  0000 C CNN
+F 1 "MX-1U" H 9811 3168 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 9700 3000 60  0001 C CNN
+F 3 "" H 9700 3000 60  0001 C CNN
+	1    9725 3025
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D59
+U 1 1 5C99E372
+P 9700 3500
+F 0 "D59" H 9572 3450 60  0000 R CNN
+F 1 "D" V 9850 3450 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 9700 3500 60  0001 C CNN
+F 3 "" H 9700 3500 60  0000 C CNN
+	1    9700 3500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9700 3200 9700 3350
+NoConn ~ 9750 3150
+NoConn ~ 9850 3050
+$Comp
+L keyboard_parts:D D60
+U 1 1 5C99E383
+P 10125 3500
+F 0 "D60" H 9997 3450 60  0000 R CNN
+F 1 "D" V 10275 3450 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 10125 3500 60  0001 C CNN
+F 3 "" H 10125 3500 60  0000 C CNN
+	1    10125 3500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10125 3200 10125 3350
+NoConn ~ 10175 3150
+NoConn ~ 10275 3050
+Wire Wire Line
+	1375 3550 1800 3550
+Connection ~ 1800 3550
+Wire Wire Line
+	1800 3550 2225 3550
+Connection ~ 2225 3550
+Wire Wire Line
+	2225 3550 2650 3550
+Connection ~ 2650 3550
+Wire Wire Line
+	2650 3550 3200 3550
+Connection ~ 3200 3550
+Wire Wire Line
+	3200 3550 3625 3550
+Connection ~ 3625 3550
+Wire Wire Line
+	3625 3550 4050 3550
+Connection ~ 4050 3550
+Wire Wire Line
+	4050 3550 4600 3550
+Connection ~ 4600 3550
+Wire Wire Line
+	4600 3550 5025 3550
+Connection ~ 5025 3550
+Wire Wire Line
+	5025 3550 5450 3550
+Connection ~ 5450 3550
+Wire Wire Line
+	5450 3550 5875 3550
+Wire Wire Line
+	6300 3550 6725 3550
+Connection ~ 6725 3550
+Wire Wire Line
+	6725 3550 7150 3550
+Connection ~ 7150 3550
+Wire Wire Line
+	7150 3550 7575 3550
+Connection ~ 7575 3550
+Wire Wire Line
+	7575 3550 8000 3550
+Connection ~ 8000 3550
+Wire Wire Line
+	8000 3550 8425 3550
+Connection ~ 8425 3550
+Wire Wire Line
+	8425 3550 8850 3550
+Connection ~ 8850 3550
+Wire Wire Line
+	8850 3550 9275 3550
+Connection ~ 9275 3550
+Wire Wire Line
+	9275 3550 9700 3550
+Connection ~ 9700 3550
+Wire Wire Line
+	9700 3550 10125 3550
+$Comp
+L MX_Alps_Hybrids:MX-1U MX61
+U 1 1 5C9A1DDA
+P 1400 3900
+F 0 "MX61" H 1486 4117 60  0000 C CNN
+F 1 "MX-1U" H 1486 4043 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 1375 3875 60  0001 C CNN
+F 3 "" H 1375 3875 60  0001 C CNN
+	1    1400 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D61
+U 1 1 5C9A1DE1
+P 1375 4375
+F 0 "D61" H 1247 4325 60  0000 R CNN
+F 1 "D" V 1525 4325 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 1375 4375 60  0001 C CNN
+F 3 "" H 1375 4375 60  0000 C CNN
+	1    1375 4375
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1375 4075 1375 4225
+NoConn ~ 1425 4025
+NoConn ~ 1525 3925
+$Comp
+L MX_Alps_Hybrids:MX-1U MX62
+U 1 1 5C9A1DEB
+P 1825 3900
+F 0 "MX62" H 1911 4117 60  0000 C CNN
+F 1 "MX-1U" H 1911 4043 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 1800 3875 60  0001 C CNN
+F 3 "" H 1800 3875 60  0001 C CNN
+	1    1825 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D62
+U 1 1 5C9A1DF2
+P 1800 4375
+F 0 "D62" H 1672 4325 60  0000 R CNN
+F 1 "D" V 1950 4325 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 1800 4375 60  0001 C CNN
+F 3 "" H 1800 4375 60  0000 C CNN
+	1    1800 4375
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1800 4075 1800 4225
+NoConn ~ 1850 4025
+NoConn ~ 1950 3925
+$Comp
+L MX_Alps_Hybrids:MX-1U MX63
+U 1 1 5C9A1DFC
+P 2250 3900
+F 0 "MX63" H 2336 4117 60  0000 C CNN
+F 1 "MX-1U" H 2336 4043 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 2225 3875 60  0001 C CNN
+F 3 "" H 2225 3875 60  0001 C CNN
+	1    2250 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D63
+U 1 1 5C9A1E03
+P 2225 4375
+F 0 "D63" H 2097 4325 60  0000 R CNN
+F 1 "D" V 2375 4325 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 2225 4375 60  0001 C CNN
+F 3 "" H 2225 4375 60  0000 C CNN
+	1    2225 4375
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2225 4075 2225 4225
+NoConn ~ 2275 4025
+NoConn ~ 2375 3925
+$Comp
+L MX_Alps_Hybrids:MX-1U MX64
+U 1 1 5C9A1E0D
+P 2675 3900
+F 0 "MX64" H 2761 4117 60  0000 C CNN
+F 1 "MX-1U" H 2761 4043 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 2650 3875 60  0001 C CNN
+F 3 "" H 2650 3875 60  0001 C CNN
+	1    2675 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D64
+U 1 1 5C9A1E14
+P 2650 4375
+F 0 "D64" H 2522 4325 60  0000 R CNN
+F 1 "D" V 2800 4325 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 2650 4375 60  0001 C CNN
+F 3 "" H 2650 4375 60  0000 C CNN
+	1    2650 4375
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2650 4075 2650 4225
+NoConn ~ 2700 4025
+NoConn ~ 2800 3925
+$Comp
+L keyboard_parts:D D65
+U 1 1 5C9A1E58
+P 4600 4375
+F 0 "D65" H 4472 4325 60  0000 R CNN
+F 1 "D" V 4750 4325 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 4600 4375 60  0001 C CNN
+F 3 "" H 4600 4375 60  0000 C CNN
+	1    4600 4375
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4600 4075 4600 4225
+NoConn ~ 4650 4025
+NoConn ~ 4750 3925
+$Comp
+L MX_Alps_Hybrids:MX-1U MX66
+U 1 1 5C9A1E62
+P 5050 3900
+F 0 "MX66" H 5136 4117 60  0000 C CNN
+F 1 "MX-1U" H 5136 4043 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 5025 3875 60  0001 C CNN
+F 3 "" H 5025 3875 60  0001 C CNN
+	1    5050 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D66
+U 1 1 5C9A1E69
+P 5025 4375
+F 0 "D66" H 4897 4325 60  0000 R CNN
+F 1 "D" V 5175 4325 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 5025 4375 60  0001 C CNN
+F 3 "" H 5025 4375 60  0000 C CNN
+	1    5025 4375
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5025 4075 5025 4225
+NoConn ~ 5075 4025
+NoConn ~ 5175 3925
+$Comp
+L MX_Alps_Hybrids:MX-1U MX67
+U 1 1 5C9A1E73
+P 5475 3900
+F 0 "MX67" H 5561 4117 60  0000 C CNN
+F 1 "MX-1U" H 5561 4043 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 5450 3875 60  0001 C CNN
+F 3 "" H 5450 3875 60  0001 C CNN
+	1    5475 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D67
+U 1 1 5C9A1E7A
+P 5450 4375
+F 0 "D67" H 5322 4325 60  0000 R CNN
+F 1 "D" V 5600 4325 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 5450 4375 60  0001 C CNN
+F 3 "" H 5450 4375 60  0000 C CNN
+	1    5450 4375
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5450 4075 5450 4225
+NoConn ~ 5500 4025
+NoConn ~ 5600 3925
+$Comp
+L MX_Alps_Hybrids:MX-1U MX68
+U 1 1 5C9A1E84
+P 5900 3900
+F 0 "MX68" H 5986 4117 60  0000 C CNN
+F 1 "MX-1U" H 5986 4043 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 5875 3875 60  0001 C CNN
+F 3 "" H 5875 3875 60  0001 C CNN
+	1    5900 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D68
+U 1 1 5C9A1E8B
+P 5875 4375
+F 0 "D68" H 5747 4325 60  0000 R CNN
+F 1 "D" V 6025 4325 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 5875 4375 60  0001 C CNN
+F 3 "" H 5875 4375 60  0000 C CNN
+	1    5875 4375
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5875 4075 5875 4225
+NoConn ~ 5925 4025
+NoConn ~ 6025 3925
+$Comp
+L MX_Alps_Hybrids:MX-1U MX69
+U 1 1 5C9A1E95
+P 6325 3900
+F 0 "MX69" H 6411 4117 60  0000 C CNN
+F 1 "MX-1U" H 6411 4043 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 6300 3875 60  0001 C CNN
+F 3 "" H 6300 3875 60  0001 C CNN
+	1    6325 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D69
+U 1 1 5C9A1E9C
+P 6300 4375
+F 0 "D69" H 6172 4325 60  0000 R CNN
+F 1 "D" V 6450 4325 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 6300 4375 60  0001 C CNN
+F 3 "" H 6300 4375 60  0000 C CNN
+	1    6300 4375
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6300 4075 6300 4225
+NoConn ~ 6350 4025
+NoConn ~ 6450 3925
+$Comp
+L MX_Alps_Hybrids:MX-1U MX70
+U 1 1 5C9A1EA6
+P 6750 3900
+F 0 "MX70" H 6836 4117 60  0000 C CNN
+F 1 "MX-1U" H 6836 4043 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 6725 3875 60  0001 C CNN
+F 3 "" H 6725 3875 60  0001 C CNN
+	1    6750 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D70
+U 1 1 5C9A1EAD
+P 6725 4375
+F 0 "D70" H 6597 4325 60  0000 R CNN
+F 1 "D" V 6875 4325 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 6725 4375 60  0001 C CNN
+F 3 "" H 6725 4375 60  0000 C CNN
+	1    6725 4375
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6725 4075 6725 4225
+NoConn ~ 6775 4025
+NoConn ~ 6875 3925
+$Comp
+L MX_Alps_Hybrids:MX-1U MX71
+U 1 1 5C9A1EB7
+P 7175 3900
+F 0 "MX71" H 7261 4117 60  0000 C CNN
+F 1 "MX-1U" H 7261 4043 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 7150 3875 60  0001 C CNN
+F 3 "" H 7150 3875 60  0001 C CNN
+	1    7175 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D71
+U 1 1 5C9A1EBE
+P 7150 4375
+F 0 "D71" H 7022 4325 60  0000 R CNN
+F 1 "D" V 7300 4325 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 7150 4375 60  0001 C CNN
+F 3 "" H 7150 4375 60  0000 C CNN
+	1    7150 4375
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7150 4075 7150 4225
+NoConn ~ 7200 4025
+NoConn ~ 7300 3925
+$Comp
+L MX_Alps_Hybrids:MX-1U MX72
+U 1 1 5C9A1EC8
+P 7600 3900
+F 0 "MX72" H 7686 4117 60  0000 C CNN
+F 1 "MX-1U" H 7686 4043 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 7575 3875 60  0001 C CNN
+F 3 "" H 7575 3875 60  0001 C CNN
+	1    7600 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D72
+U 1 1 5C9A1ECF
+P 7575 4375
+F 0 "D72" H 7447 4325 60  0000 R CNN
+F 1 "D" V 7725 4325 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 7575 4375 60  0001 C CNN
+F 3 "" H 7575 4375 60  0000 C CNN
+	1    7575 4375
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7575 4075 7575 4225
+NoConn ~ 7625 4025
+NoConn ~ 7725 3925
+$Comp
+L MX_Alps_Hybrids:MX-1U MX73
+U 1 1 5C9A1ED9
+P 8025 3900
+F 0 "MX73" H 8111 4117 60  0000 C CNN
+F 1 "MX-1U" H 8111 4043 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 8000 3875 60  0001 C CNN
+F 3 "" H 8000 3875 60  0001 C CNN
+	1    8025 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D73
+U 1 1 5C9A1EE0
+P 8000 4375
+F 0 "D73" H 7872 4325 60  0000 R CNN
+F 1 "D" V 8150 4325 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 8000 4375 60  0001 C CNN
+F 3 "" H 8000 4375 60  0000 C CNN
+	1    8000 4375
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8000 4075 8000 4225
+NoConn ~ 8050 4025
+NoConn ~ 8150 3925
+$Comp
+L MX_Alps_Hybrids:MX-1U MX74
+U 1 1 5C9A1EEA
+P 8450 3900
+F 0 "MX74" H 8536 4117 60  0000 C CNN
+F 1 "MX-1U" H 8536 4043 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 8425 3875 60  0001 C CNN
+F 3 "" H 8425 3875 60  0001 C CNN
+	1    8450 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D74
+U 1 1 5C9A1EF1
+P 8425 4375
+F 0 "D74" H 8297 4325 60  0000 R CNN
+F 1 "D" V 8575 4325 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 8425 4375 60  0001 C CNN
+F 3 "" H 8425 4375 60  0000 C CNN
+	1    8425 4375
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8425 4075 8425 4225
+NoConn ~ 8475 4025
+NoConn ~ 8575 3925
+$Comp
+L MX_Alps_Hybrids:MX-1U MX75
+U 1 1 5C9A1EFB
+P 8875 3900
+F 0 "MX75" H 8961 4117 60  0000 C CNN
+F 1 "MX-1U" H 8961 4043 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 8850 3875 60  0001 C CNN
+F 3 "" H 8850 3875 60  0001 C CNN
+	1    8875 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D75
+U 1 1 5C9A1F02
+P 8850 4375
+F 0 "D75" H 8722 4325 60  0000 R CNN
+F 1 "D" V 9000 4325 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 8850 4375 60  0001 C CNN
+F 3 "" H 8850 4375 60  0000 C CNN
+	1    8850 4375
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8850 4075 8850 4225
+NoConn ~ 8900 4025
+NoConn ~ 9000 3925
+$Comp
+L MX_Alps_Hybrids:MX-1U MX76
+U 1 1 5C9A1F0C
+P 9300 3900
+F 0 "MX76" H 9386 4117 60  0000 C CNN
+F 1 "MX-1U" H 9386 4043 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 9275 3875 60  0001 C CNN
+F 3 "" H 9275 3875 60  0001 C CNN
+	1    9300 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D76
+U 1 1 5C9A1F13
+P 9275 4375
+F 0 "D76" H 9147 4325 60  0000 R CNN
+F 1 "D" V 9425 4325 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 9275 4375 60  0001 C CNN
+F 3 "" H 9275 4375 60  0000 C CNN
+	1    9275 4375
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9275 4075 9275 4225
+NoConn ~ 9325 4025
+NoConn ~ 9425 3925
+$Comp
+L keyboard_parts:D D77
+U 1 1 5C9A1F35
+P 10125 4375
+F 0 "D77" H 9997 4325 60  0000 R CNN
+F 1 "D" V 10275 4325 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 10125 4375 60  0001 C CNN
+F 3 "" H 10125 4375 60  0000 C CNN
+	1    10125 4375
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10125 4075 10125 4225
+NoConn ~ 10175 4025
+NoConn ~ 10275 3925
+Wire Wire Line
+	1375 4425 1800 4425
+Connection ~ 1800 4425
+Wire Wire Line
+	1800 4425 2225 4425
+Connection ~ 2225 4425
+Wire Wire Line
+	2225 4425 2650 4425
+Connection ~ 2650 4425
+Connection ~ 4600 4425
+Wire Wire Line
+	4600 4425 5025 4425
+Connection ~ 5025 4425
+Wire Wire Line
+	5025 4425 5450 4425
+Connection ~ 5450 4425
+Wire Wire Line
+	5450 4425 5875 4425
+Wire Wire Line
+	6300 4425 6725 4425
+Connection ~ 6725 4425
+Wire Wire Line
+	6725 4425 7150 4425
+Connection ~ 7150 4425
+Wire Wire Line
+	7150 4425 7575 4425
+Connection ~ 7575 4425
+Wire Wire Line
+	7575 4425 8000 4425
+Connection ~ 8000 4425
+Wire Wire Line
+	8000 4425 8425 4425
+Connection ~ 8425 4425
+Wire Wire Line
+	8425 4425 8850 4425
+Connection ~ 8850 4425
+Wire Wire Line
+	8850 4425 9275 4425
+Connection ~ 9275 4425
+$Comp
+L MX_Alps_Hybrids:MX-1U MX78
+U 1 1 5C9A8B2D
+P 1400 4775
+F 0 "MX78" H 1486 4992 60  0000 C CNN
+F 1 "MX-1U" H 1486 4918 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 1375 4750 60  0001 C CNN
+F 3 "" H 1375 4750 60  0001 C CNN
+	1    1400 4775
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D78
+U 1 1 5C9A8B34
+P 1375 5250
+F 0 "D78" H 1247 5200 60  0000 R CNN
+F 1 "D" V 1525 5200 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 1375 5250 60  0001 C CNN
+F 3 "" H 1375 5250 60  0000 C CNN
+	1    1375 5250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1375 4950 1375 5100
+NoConn ~ 1425 4900
+NoConn ~ 1525 4800
+$Comp
+L MX_Alps_Hybrids:MX-1U MX79
+U 1 1 5C9A8B3E
+P 1825 4775
+F 0 "MX79" H 1911 4992 60  0000 C CNN
+F 1 "MX-1U" H 1911 4918 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 1800 4750 60  0001 C CNN
+F 3 "" H 1800 4750 60  0001 C CNN
+	1    1825 4775
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D79
+U 1 1 5C9A8B45
+P 1800 5250
+F 0 "D79" H 1672 5200 60  0000 R CNN
+F 1 "D" V 1950 5200 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 1800 5250 60  0001 C CNN
+F 3 "" H 1800 5250 60  0000 C CNN
+	1    1800 5250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1800 4950 1800 5100
+NoConn ~ 1850 4900
+NoConn ~ 1950 4800
+$Comp
+L MX_Alps_Hybrids:MX-1U MX80
+U 1 1 5C9A8B4F
+P 2250 4775
+F 0 "MX80" H 2336 4992 60  0000 C CNN
+F 1 "MX-1U" H 2336 4918 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 2225 4750 60  0001 C CNN
+F 3 "" H 2225 4750 60  0001 C CNN
+	1    2250 4775
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D80
+U 1 1 5C9A8B56
+P 2225 5250
+F 0 "D80" H 2097 5200 60  0000 R CNN
+F 1 "D" V 2375 5200 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 2225 5250 60  0001 C CNN
+F 3 "" H 2225 5250 60  0000 C CNN
+	1    2225 5250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2225 4950 2225 5100
+NoConn ~ 2275 4900
+NoConn ~ 2375 4800
+$Comp
+L MX_Alps_Hybrids:MX-1U MX81
+U 1 1 5C9A8B60
+P 2675 4775
+F 0 "MX81" H 2761 4992 60  0000 C CNN
+F 1 "MX-1U" H 2761 4918 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 2650 4750 60  0001 C CNN
+F 3 "" H 2650 4750 60  0001 C CNN
+	1    2675 4775
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D81
+U 1 1 5C9A8B67
+P 2650 5250
+F 0 "D81" H 2522 5200 60  0000 R CNN
+F 1 "D" V 2800 5200 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 2650 5250 60  0001 C CNN
+F 3 "" H 2650 5250 60  0000 C CNN
+	1    2650 5250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2650 4950 2650 5100
+NoConn ~ 2700 4900
+NoConn ~ 2800 4800
+$Comp
+L MX_Alps_Hybrids:MX-1U MX82
+U 1 1 5C9A8B82
+P 3650 4775
+F 0 "MX82" H 3736 4992 60  0000 C CNN
+F 1 "MX-1U" H 3736 4918 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 3625 4750 60  0001 C CNN
+F 3 "" H 3625 4750 60  0001 C CNN
+	1    3650 4775
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D82
+U 1 1 5C9A8B89
+P 3625 5250
+F 0 "D82" H 3497 5200 60  0000 R CNN
+F 1 "D" V 3775 5200 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 3625 5250 60  0001 C CNN
+F 3 "" H 3625 5250 60  0000 C CNN
+	1    3625 5250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3625 4950 3625 5100
+NoConn ~ 3675 4900
+NoConn ~ 3775 4800
+$Comp
+L keyboard_parts:D D83
+U 1 1 5C9A8BAB
+P 4600 5250
+F 0 "D83" H 4472 5200 60  0000 R CNN
+F 1 "D" V 4750 5200 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 4600 5250 60  0001 C CNN
+F 3 "" H 4600 5250 60  0000 C CNN
+	1    4600 5250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4600 4950 4600 5100
+NoConn ~ 4650 4900
+NoConn ~ 4750 4800
+$Comp
+L MX_Alps_Hybrids:MX-1U MX84
+U 1 1 5C9A8BC6
+P 5475 4775
+F 0 "MX84" H 5561 4992 60  0000 C CNN
+F 1 "MX-1U" H 5561 4918 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 5450 4750 60  0001 C CNN
+F 3 "" H 5450 4750 60  0001 C CNN
+	1    5475 4775
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D84
+U 1 1 5C9A8BCD
+P 5450 5250
+F 0 "D84" H 5322 5200 60  0000 R CNN
+F 1 "D" V 5600 5200 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 5450 5250 60  0001 C CNN
+F 3 "" H 5450 5250 60  0000 C CNN
+	1    5450 5250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5450 4950 5450 5100
+NoConn ~ 5500 4900
+NoConn ~ 5600 4800
+$Comp
+L keyboard_parts:D D85
+U 1 1 5C9A8BDE
+P 5875 5250
+F 0 "D85" H 5747 5200 60  0000 R CNN
+F 1 "D" V 6025 5200 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 5875 5250 60  0001 C CNN
+F 3 "" H 5875 5250 60  0000 C CNN
+	1    5875 5250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5875 4950 5875 5100
+NoConn ~ 5925 4900
+NoConn ~ 6025 4800
+$Comp
+L MX_Alps_Hybrids:MX-1U MX86
+U 1 1 5C9A8BE8
+P 6325 4775
+F 0 "MX86" H 6411 4992 60  0000 C CNN
+F 1 "MX-1U" H 6411 4918 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 6300 4750 60  0001 C CNN
+F 3 "" H 6300 4750 60  0001 C CNN
+	1    6325 4775
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D86
+U 1 1 5C9A8BEF
+P 6300 5250
+F 0 "D86" H 6172 5200 60  0000 R CNN
+F 1 "D" V 6450 5200 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 6300 5250 60  0001 C CNN
+F 3 "" H 6300 5250 60  0000 C CNN
+	1    6300 5250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6300 4950 6300 5100
+NoConn ~ 6350 4900
+NoConn ~ 6450 4800
+$Comp
+L MX_Alps_Hybrids:MX-1U MX87
+U 1 1 5C9A8BF9
+P 6750 4775
+F 0 "MX87" H 6836 4992 60  0000 C CNN
+F 1 "MX-1U" H 6836 4918 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 6725 4750 60  0001 C CNN
+F 3 "" H 6725 4750 60  0001 C CNN
+	1    6750 4775
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D87
+U 1 1 5C9A8C00
+P 6725 5250
+F 0 "D87" H 6597 5200 60  0000 R CNN
+F 1 "D" V 6875 5200 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 6725 5250 60  0001 C CNN
+F 3 "" H 6725 5250 60  0000 C CNN
+	1    6725 5250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6725 4950 6725 5100
+NoConn ~ 6775 4900
+NoConn ~ 6875 4800
+$Comp
+L MX_Alps_Hybrids:MX-1U MX88
+U 1 1 5C9A8C0A
+P 7175 4775
+F 0 "MX88" H 7261 4992 60  0000 C CNN
+F 1 "MX-1U" H 7261 4918 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 7150 4750 60  0001 C CNN
+F 3 "" H 7150 4750 60  0001 C CNN
+	1    7175 4775
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D88
+U 1 1 5C9A8C11
+P 7150 5250
+F 0 "D88" H 7022 5200 60  0000 R CNN
+F 1 "D" V 7300 5200 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 7150 5250 60  0001 C CNN
+F 3 "" H 7150 5250 60  0000 C CNN
+	1    7150 5250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7150 4950 7150 5100
+NoConn ~ 7200 4900
+NoConn ~ 7300 4800
+$Comp
+L MX_Alps_Hybrids:MX-1U MX89
+U 1 1 5C9A8C1B
+P 7600 4775
+F 0 "MX89" H 7686 4992 60  0000 C CNN
+F 1 "MX-1U" H 7686 4918 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 7575 4750 60  0001 C CNN
+F 3 "" H 7575 4750 60  0001 C CNN
+	1    7600 4775
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D89
+U 1 1 5C9A8C22
+P 7575 5250
+F 0 "D89" H 7447 5200 60  0000 R CNN
+F 1 "D" V 7725 5200 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 7575 5250 60  0001 C CNN
+F 3 "" H 7575 5250 60  0000 C CNN
+	1    7575 5250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7575 4950 7575 5100
+NoConn ~ 7625 4900
+NoConn ~ 7725 4800
+$Comp
+L MX_Alps_Hybrids:MX-1U MX90
+U 1 1 5C9A8C2C
+P 8025 4775
+F 0 "MX90" H 8111 4992 60  0000 C CNN
+F 1 "MX-1U" H 8111 4918 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 8000 4750 60  0001 C CNN
+F 3 "" H 8000 4750 60  0001 C CNN
+	1    8025 4775
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D90
+U 1 1 5C9A8C33
+P 8000 5250
+F 0 "D90" H 7872 5200 60  0000 R CNN
+F 1 "D" V 8150 5200 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 8000 5250 60  0001 C CNN
+F 3 "" H 8000 5250 60  0000 C CNN
+	1    8000 5250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8000 4950 8000 5100
+NoConn ~ 8050 4900
+NoConn ~ 8150 4800
+$Comp
+L MX_Alps_Hybrids:MX-1U MX91
+U 1 1 5C9A8C3D
+P 8450 4775
+F 0 "MX91" H 8536 4992 60  0000 C CNN
+F 1 "MX-1U" H 8536 4918 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 8425 4750 60  0001 C CNN
+F 3 "" H 8425 4750 60  0001 C CNN
+	1    8450 4775
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D91
+U 1 1 5C9A8C44
+P 8425 5250
+F 0 "D91" H 8297 5200 60  0000 R CNN
+F 1 "D" V 8575 5200 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 8425 5250 60  0001 C CNN
+F 3 "" H 8425 5250 60  0000 C CNN
+	1    8425 5250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8425 4950 8425 5100
+NoConn ~ 8475 4900
+NoConn ~ 8575 4800
+$Comp
+L MX_Alps_Hybrids:MX-1U MX92
+U 1 1 5C9A8C4E
+P 8875 4775
+F 0 "MX92" H 8961 4992 60  0000 C CNN
+F 1 "MX-1U" H 8961 4918 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 8850 4750 60  0001 C CNN
+F 3 "" H 8850 4750 60  0001 C CNN
+	1    8875 4775
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D92
+U 1 1 5C9A8C55
+P 8850 5250
+F 0 "D92" H 8722 5200 60  0000 R CNN
+F 1 "D" V 9000 5200 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 8850 5250 60  0001 C CNN
+F 3 "" H 8850 5250 60  0000 C CNN
+	1    8850 5250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8850 4950 8850 5100
+NoConn ~ 8900 4900
+NoConn ~ 9000 4800
+$Comp
+L MX_Alps_Hybrids:MX-1U MX93
+U 1 1 5C9A8C5F
+P 9300 4775
+F 0 "MX93" H 9386 4992 60  0000 C CNN
+F 1 "MX-1U" H 9386 4918 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 9275 4750 60  0001 C CNN
+F 3 "" H 9275 4750 60  0001 C CNN
+	1    9300 4775
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D93
+U 1 1 5C9A8C66
+P 9275 5250
+F 0 "D93" H 9147 5200 60  0000 R CNN
+F 1 "D" V 9425 5200 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 9275 5250 60  0001 C CNN
+F 3 "" H 9275 5250 60  0000 C CNN
+	1    9275 5250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9275 4950 9275 5100
+NoConn ~ 9325 4900
+NoConn ~ 9425 4800
+$Comp
+L keyboard_parts:D D94
+U 1 1 5C9A8C77
+P 9700 5250
+F 0 "D94" H 9572 5200 60  0000 R CNN
+F 1 "D" V 9850 5200 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 9700 5250 60  0001 C CNN
+F 3 "" H 9700 5250 60  0000 C CNN
+	1    9700 5250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9700 4950 9700 5100
+NoConn ~ 9750 4900
+NoConn ~ 9850 4800
+Wire Wire Line
+	1375 5300 1800 5300
+Connection ~ 1800 5300
+Wire Wire Line
+	1800 5300 2225 5300
+Connection ~ 2225 5300
+Wire Wire Line
+	2225 5300 2650 5300
+Connection ~ 2650 5300
+Connection ~ 3625 5300
+Connection ~ 4600 5300
+Connection ~ 5450 5300
+Wire Wire Line
+	5450 5300 5875 5300
+Wire Wire Line
+	6300 5300 6725 5300
+Connection ~ 6725 5300
+Wire Wire Line
+	6725 5300 7150 5300
+Connection ~ 7150 5300
+Wire Wire Line
+	7150 5300 7575 5300
+Connection ~ 7575 5300
+Wire Wire Line
+	7575 5300 8000 5300
+Connection ~ 8000 5300
+Wire Wire Line
+	8000 5300 8425 5300
+Connection ~ 8425 5300
+Wire Wire Line
+	8425 5300 8850 5300
+Connection ~ 8850 5300
+Wire Wire Line
+	8850 5300 9275 5300
+Connection ~ 9275 5300
+Wire Wire Line
+	9275 5300 9700 5300
+Connection ~ 9700 5300
+$Comp
+L MX_Alps_Hybrids:MX-1U MX95
+U 1 1 5C9B3D68
+P 1400 5650
+F 0 "MX95" H 1486 5867 60  0000 C CNN
+F 1 "MX-1U" H 1486 5793 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 1375 5625 60  0001 C CNN
+F 3 "" H 1375 5625 60  0001 C CNN
+	1    1400 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D95
+U 1 1 5C9B3D6F
+P 1375 6125
+F 0 "D95" H 1247 6075 60  0000 R CNN
+F 1 "D" V 1525 6075 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 1375 6125 60  0001 C CNN
+F 3 "" H 1375 6125 60  0000 C CNN
+	1    1375 6125
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1375 5825 1375 5975
+NoConn ~ 1425 5775
+NoConn ~ 1525 5675
+$Comp
+L MX_Alps_Hybrids:MX-1U MX96
+U 1 1 5C9B3D79
+P 1825 5650
+F 0 "MX96" H 1911 5867 60  0000 C CNN
+F 1 "MX-1U" H 1911 5793 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 1800 5625 60  0001 C CNN
+F 3 "" H 1800 5625 60  0001 C CNN
+	1    1825 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D96
+U 1 1 5C9B3D80
+P 1800 6125
+F 0 "D96" H 1672 6075 60  0000 R CNN
+F 1 "D" V 1950 6075 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 1800 6125 60  0001 C CNN
+F 3 "" H 1800 6125 60  0000 C CNN
+	1    1800 6125
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1800 5825 1800 5975
+NoConn ~ 1850 5775
+NoConn ~ 1950 5675
+$Comp
+L MX_Alps_Hybrids:MX-1U MX97
+U 1 1 5C9B3D8A
+P 2250 5650
+F 0 "MX97" H 2336 5867 60  0000 C CNN
+F 1 "MX-1U" H 2336 5793 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 2225 5625 60  0001 C CNN
+F 3 "" H 2225 5625 60  0001 C CNN
+	1    2250 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D97
+U 1 1 5C9B3D91
+P 2225 6125
+F 0 "D97" H 2097 6075 60  0000 R CNN
+F 1 "D" V 2375 6075 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 2225 6125 60  0001 C CNN
+F 3 "" H 2225 6125 60  0000 C CNN
+	1    2225 6125
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2225 5825 2225 5975
+NoConn ~ 2275 5775
+NoConn ~ 2375 5675
+$Comp
+L MX_Alps_Hybrids:MX-1U MX98
+U 1 1 5C9B3D9B
+P 2675 5650
+F 0 "MX98" H 2761 5867 60  0000 C CNN
+F 1 "MX-1U" H 2761 5793 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 2650 5625 60  0001 C CNN
+F 3 "" H 2650 5625 60  0001 C CNN
+	1    2675 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D98
+U 1 1 5C9B3DA2
+P 2650 6125
+F 0 "D98" H 2522 6075 60  0000 R CNN
+F 1 "D" V 2800 6075 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 2650 6125 60  0001 C CNN
+F 3 "" H 2650 6125 60  0000 C CNN
+	1    2650 6125
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2650 5825 2650 5975
+NoConn ~ 2700 5775
+NoConn ~ 2800 5675
+$Comp
+L MX_Alps_Hybrids:MX-1U MX99
+U 1 1 5C9B3DAC
+P 3225 5650
+F 0 "MX99" H 3311 5867 60  0000 C CNN
+F 1 "MX-1U" H 3311 5793 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 3200 5625 60  0001 C CNN
+F 3 "" H 3200 5625 60  0001 C CNN
+	1    3225 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D99
+U 1 1 5C9B3DB3
+P 3200 6125
+F 0 "D99" H 3072 6075 60  0000 R CNN
+F 1 "D" V 3350 6075 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 3200 6125 60  0001 C CNN
+F 3 "" H 3200 6125 60  0000 C CNN
+	1    3200 6125
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3200 5825 3200 5975
+NoConn ~ 3250 5775
+NoConn ~ 3350 5675
+$Comp
+L MX_Alps_Hybrids:MX-1U MX100
+U 1 1 5C9B3DBD
+P 3650 5650
+F 0 "MX100" H 3736 5867 60  0000 C CNN
+F 1 "MX-1U" H 3736 5793 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 3625 5625 60  0001 C CNN
+F 3 "" H 3625 5625 60  0001 C CNN
+	1    3650 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D100
+U 1 1 5C9B3DC4
+P 3625 6125
+F 0 "D100" H 3497 6075 60  0000 R CNN
+F 1 "D" V 3775 6075 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 3625 6125 60  0001 C CNN
+F 3 "" H 3625 6125 60  0000 C CNN
+	1    3625 6125
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3625 5825 3625 5975
+NoConn ~ 3675 5775
+NoConn ~ 3775 5675
+$Comp
+L MX_Alps_Hybrids:MX-1U MX101
+U 1 1 5C9B3DCE
+P 4075 5650
+F 0 "MX101" H 4161 5867 60  0000 C CNN
+F 1 "MX-1U" H 4161 5793 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 4050 5625 60  0001 C CNN
+F 3 "" H 4050 5625 60  0001 C CNN
+	1    4075 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D101
+U 1 1 5C9B3DD5
+P 4050 6125
+F 0 "D101" H 3922 6075 60  0000 R CNN
+F 1 "D" V 4200 6075 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 4050 6125 60  0001 C CNN
+F 3 "" H 4050 6125 60  0000 C CNN
+	1    4050 6125
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4050 5825 4050 5975
+NoConn ~ 4100 5775
+NoConn ~ 4200 5675
+$Comp
+L keyboard_parts:D D102
+U 1 1 5C9B3DE6
+P 4600 6125
+F 0 "D102" H 4472 6075 60  0000 R CNN
+F 1 "D" V 4750 6075 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 4600 6125 60  0001 C CNN
+F 3 "" H 4600 6125 60  0000 C CNN
+	1    4600 6125
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4600 5825 4600 5975
+NoConn ~ 4650 5775
+NoConn ~ 4750 5675
+$Comp
+L keyboard_parts:D D103
+U 1 1 5C9B3DF7
+P 5025 6125
+F 0 "D103" H 4897 6075 60  0000 R CNN
+F 1 "D" V 5175 6075 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 5025 6125 60  0001 C CNN
+F 3 "" H 5025 6125 60  0000 C CNN
+	1    5025 6125
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5025 5825 5025 5975
+NoConn ~ 5075 5775
+NoConn ~ 5175 5675
+$Comp
+L keyboard_parts:D D104
+U 1 1 5C9B3E08
+P 5450 6125
+F 0 "D104" H 5322 6075 60  0000 R CNN
+F 1 "D" V 5600 6075 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 5450 6125 60  0001 C CNN
+F 3 "" H 5450 6125 60  0000 C CNN
+	1    5450 6125
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5450 5825 5450 5975
+NoConn ~ 5500 5775
+NoConn ~ 5600 5675
+$Comp
+L keyboard_parts:D D105
+U 1 1 5C9B3E3B
+P 7150 6125
+F 0 "D105" H 7022 6075 60  0000 R CNN
+F 1 "D" V 7300 6075 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 7150 6125 60  0001 C CNN
+F 3 "" H 7150 6125 60  0000 C CNN
+	1    7150 6125
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7150 5825 7150 5975
+NoConn ~ 7200 5775
+NoConn ~ 7300 5675
+$Comp
+L keyboard_parts:D D106
+U 1 1 5C9B3E7F
+P 8850 6125
+F 0 "D106" H 8722 6075 60  0000 R CNN
+F 1 "D" V 9000 6075 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 8850 6125 60  0001 C CNN
+F 3 "" H 8850 6125 60  0000 C CNN
+	1    8850 6125
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8850 5825 8850 5975
+NoConn ~ 8900 5775
+NoConn ~ 9000 5675
+$Comp
+L keyboard_parts:D D107
+U 1 1 5C9B3E90
+P 9275 6125
+F 0 "D107" H 9147 6075 60  0000 R CNN
+F 1 "D" V 9425 6075 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 9275 6125 60  0001 C CNN
+F 3 "" H 9275 6125 60  0000 C CNN
+	1    9275 6125
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9275 5825 9275 5975
+NoConn ~ 9325 5775
+NoConn ~ 9425 5675
+$Comp
+L keyboard_parts:D D108
+U 1 1 5C9B3EB2
+P 9700 6125
+F 0 "D108" H 9572 6075 60  0000 R CNN
+F 1 "D" V 9850 6075 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 9700 6125 60  0001 C CNN
+F 3 "" H 9700 6125 60  0000 C CNN
+	1    9700 6125
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9700 5825 9700 5975
+NoConn ~ 9750 5775
+NoConn ~ 9850 5675
+$Comp
+L keyboard_parts:D D109
+U 1 1 5C9B3EC3
+P 10125 6125
+F 0 "D109" H 9997 6075 60  0000 R CNN
+F 1 "D" V 10275 6075 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 10125 6125 60  0001 C CNN
+F 3 "" H 10125 6125 60  0000 C CNN
+	1    10125 6125
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10125 5825 10125 5975
+NoConn ~ 10175 5775
+NoConn ~ 10275 5675
+Wire Wire Line
+	1375 6175 1800 6175
+Connection ~ 1800 6175
+Wire Wire Line
+	1800 6175 2225 6175
+Connection ~ 2225 6175
+Wire Wire Line
+	2225 6175 2650 6175
+Connection ~ 2650 6175
+Wire Wire Line
+	2650 6175 3200 6175
+Connection ~ 3200 6175
+Wire Wire Line
+	3200 6175 3625 6175
+Connection ~ 3625 6175
+Wire Wire Line
+	3625 6175 4050 6175
+Connection ~ 4050 6175
+Wire Wire Line
+	4050 6175 4600 6175
+Connection ~ 4600 6175
+Wire Wire Line
+	4600 6175 5025 6175
+Connection ~ 5025 6175
+Wire Wire Line
+	5025 6175 5450 6175
+Connection ~ 9700 6175
+Wire Wire Line
+	9700 6175 10125 6175
+Wire Wire Line
+	3625 1800 4600 1800
+Wire Wire Line
+	2650 1800 3625 1800
+Wire Wire Line
+	2650 4425 4600 4425
+Wire Wire Line
+	2650 5300 3625 5300
+Wire Wire Line
+	3625 5300 4600 5300
+Wire Wire Line
+	4600 1800 5450 1800
+Text HLabel 6575 1000 1    50   BiDi ~ 0
+colA
+Text HLabel 7000 1000 1    50   BiDi ~ 0
+colB
+Text HLabel 7425 1000 1    50   BiDi ~ 0
+colC
+Text HLabel 7850 1000 1    50   BiDi ~ 0
+colD
+Text HLabel 8275 1000 1    50   BiDi ~ 0
+colE
+Text HLabel 8700 1000 1    50   BiDi ~ 0
+colF
+Text HLabel 9125 1000 1    50   BiDi ~ 0
+colG
+Text HLabel 9550 1000 1    50   BiDi ~ 0
+colH
+Text HLabel 9975 1000 1    50   BiDi ~ 0
+colI
+Wire Wire Line
+	2075 1000 2075 1250
+Wire Wire Line
+	1650 1000 1650 1250
+Wire Wire Line
+	1575 5625 1650 5625
+Wire Wire Line
+	1575 4750 1650 4750
+Connection ~ 1650 4750
+Wire Wire Line
+	1650 4750 1650 5625
+Wire Wire Line
+	1575 3875 1650 3875
+Connection ~ 1650 3875
+Wire Wire Line
+	1650 3875 1650 4750
+Wire Wire Line
+	1575 3000 1650 3000
+Connection ~ 1650 3000
+Wire Wire Line
+	1650 3000 1650 3875
+Wire Wire Line
+	1575 2125 1650 2125
+Connection ~ 1650 2125
+Wire Wire Line
+	1650 2125 1650 3000
+Wire Wire Line
+	1575 1250 1650 1250
+Connection ~ 1650 1250
+Wire Wire Line
+	1650 1250 1650 2125
+Wire Wire Line
+	2075 1250 2000 1250
+Wire Wire Line
+	2075 1250 2075 2125
+Wire Wire Line
+	2000 2125 2075 2125
+Connection ~ 2075 1250
+Wire Wire Line
+	2075 2125 2075 3000
+Wire Wire Line
+	2000 3000 2075 3000
+Connection ~ 2075 2125
+Wire Wire Line
+	2075 3000 2075 3875
+Wire Wire Line
+	2000 3875 2075 3875
+Connection ~ 2075 3000
+Wire Wire Line
+	2075 3875 2075 4750
+Wire Wire Line
+	2000 4750 2075 4750
+Connection ~ 2075 3875
+Wire Wire Line
+	2075 4750 2075 5625
+Wire Wire Line
+	2000 5625 2075 5625
+Connection ~ 2075 4750
+Wire Wire Line
+	2425 5625 2500 5625
+Wire Wire Line
+	2500 5625 2500 4750
+Wire Wire Line
+	2500 4750 2425 4750
+Wire Wire Line
+	2500 4750 2500 3875
+Wire Wire Line
+	2500 3875 2425 3875
+Connection ~ 2500 4750
+Wire Wire Line
+	2500 3875 2500 3000
+Wire Wire Line
+	2500 3000 2425 3000
+Connection ~ 2500 3875
+Wire Wire Line
+	2500 3000 2500 2125
+Wire Wire Line
+	2500 2125 2425 2125
+Connection ~ 2500 3000
+Wire Wire Line
+	2500 2125 2500 1250
+Wire Wire Line
+	2500 1250 2425 1250
+Connection ~ 2500 2125
+Wire Wire Line
+	2500 1250 2500 1000
+Connection ~ 2500 1250
+Wire Wire Line
+	2925 1000 2925 1250
+Wire Wire Line
+	2925 1250 2850 1250
+Wire Wire Line
+	2925 1250 2925 2125
+Wire Wire Line
+	2925 2125 2850 2125
+Connection ~ 2925 1250
+Wire Wire Line
+	2925 2125 2925 3000
+Wire Wire Line
+	2925 3000 2850 3000
+Connection ~ 2925 2125
+Wire Wire Line
+	2925 3000 2925 3875
+Wire Wire Line
+	2925 3875 2850 3875
+Connection ~ 2925 3000
+Wire Wire Line
+	2925 3875 2925 4750
+Wire Wire Line
+	2925 4750 2850 4750
+Connection ~ 2925 3875
+Wire Wire Line
+	2925 4750 2925 5625
+Wire Wire Line
+	2925 5625 2850 5625
+Connection ~ 2925 4750
+Wire Wire Line
+	3400 5625 3475 5625
+Wire Wire Line
+	3475 5625 3475 3000
+Wire Wire Line
+	3475 3000 3400 3000
+Wire Wire Line
+	3475 3000 3475 2125
+Wire Wire Line
+	3475 2125 3400 2125
+Connection ~ 3475 3000
+Wire Wire Line
+	3475 2125 3475 1000
+Connection ~ 3475 2125
+Wire Wire Line
+	3900 1000 3900 1250
+Wire Wire Line
+	3900 1250 3825 1250
+Wire Wire Line
+	3900 1250 3900 2125
+Wire Wire Line
+	3900 2125 3825 2125
+Connection ~ 3900 1250
+Wire Wire Line
+	3900 2125 3900 3000
+Wire Wire Line
+	3900 3000 3825 3000
+Connection ~ 3900 2125
+Wire Wire Line
+	3900 3000 3900 4750
+Wire Wire Line
+	3900 4750 3825 4750
+Connection ~ 3900 3000
+Wire Wire Line
+	3900 4750 3900 5625
+Wire Wire Line
+	3900 5625 3825 5625
+Connection ~ 3900 4750
+Wire Wire Line
+	4250 5625 4325 5625
+Wire Wire Line
+	4325 5625 4325 3000
+Wire Wire Line
+	4325 3000 4250 3000
+Wire Wire Line
+	4325 3000 4325 2125
+Wire Wire Line
+	4325 2125 4250 2125
+Connection ~ 4325 3000
+Wire Wire Line
+	4325 2125 4325 1000
+Connection ~ 4325 2125
+$Comp
+L MX_Alps_Hybrids:MX-1.5U MX6
+U 1 1 5CDD4D32
+P 4625 1275
+F 0 "MX6" H 4711 1492 60  0000 C CNN
+F 1 "MX-1.5U" H 4711 1418 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1.5U-Hotswap" H 4600 1250 60  0001 C CNN
+F 3 "" H 4600 1250 60  0001 C CNN
+	1    4625 1275
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrids:MX-1.5U MX47
+U 1 1 5CDD5DEE
+P 4625 3025
+F 0 "MX47" H 4711 3242 60  0000 C CNN
+F 1 "MX-1.5U" H 4711 3168 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1.5U-Hotswap" H 4600 3000 60  0001 C CNN
+F 3 "" H 4600 3000 60  0001 C CNN
+	1    4625 3025
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrids:MX-1.75U MX65
+U 1 1 5CDD6951
+P 4625 3900
+F 0 "MX65" H 4711 4117 60  0000 C CNN
+F 1 "MX-1.75U" H 4711 4043 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1.75U-Hotswap" H 4600 3875 60  0001 C CNN
+F 3 "" H 4600 3875 60  0001 C CNN
+	1    4625 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrids:MX-2.25U MX83
+U 1 1 5CDD6F27
+P 4625 4775
+F 0 "MX83" H 4711 4992 60  0000 C CNN
+F 1 "MX-2.25U" H 4711 4918 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-2.25U-Hotswap" H 4600 4750 60  0001 C CNN
+F 3 "" H 4600 4750 60  0001 C CNN
+	1    4625 4775
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrids:MX-1.25U MX102
+U 1 1 5CDD77B5
+P 4625 5650
+F 0 "MX102" H 4711 5867 60  0000 C CNN
+F 1 "MX-1.25U" H 4711 5793 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1.25U-Hotswap" H 4600 5625 60  0001 C CNN
+F 3 "" H 4600 5625 60  0001 C CNN
+	1    4625 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrids:MX-1.25U MX103
+U 1 1 5CDD79B5
+P 5050 5650
+F 0 "MX103" H 5136 5867 60  0000 C CNN
+F 1 "MX-1.25U" H 5136 5793 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1.25U-Hotswap" H 5025 5625 60  0001 C CNN
+F 3 "" H 5025 5625 60  0001 C CNN
+	1    5050 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrids:MX-1.25U MX104
+U 1 1 5CDD7BA9
+P 5475 5650
+F 0 "MX104" H 5561 5867 60  0000 C CNN
+F 1 "MX-1.25U" H 5561 5793 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1.25U-Hotswap" H 5450 5625 60  0001 C CNN
+F 3 "" H 5450 5625 60  0001 C CNN
+	1    5475 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 5625 4875 5625
+Wire Wire Line
+	4875 5625 4875 4750
+Wire Wire Line
+	5300 1000 5300 2125
+Wire Wire Line
+	5300 5625 5225 5625
+Wire Wire Line
+	5650 5625 5725 5625
+Wire Wire Line
+	5725 5625 5725 4750
+Wire Wire Line
+	4800 4750 4875 4750
+Connection ~ 4875 4750
+Wire Wire Line
+	4875 4750 4875 3875
+Wire Wire Line
+	5650 4750 5725 4750
+Connection ~ 5725 4750
+Wire Wire Line
+	5725 4750 5725 3875
+Wire Wire Line
+	4800 3875 4875 3875
+Connection ~ 4875 3875
+Wire Wire Line
+	4875 3875 4875 3000
+Wire Wire Line
+	5225 3875 5300 3875
+Connection ~ 5300 3875
+Wire Wire Line
+	5650 3875 5725 3875
+Connection ~ 5725 3875
+Wire Wire Line
+	5725 3875 5725 3000
+Wire Wire Line
+	4800 3000 4875 3000
+Connection ~ 4875 3000
+Wire Wire Line
+	4875 3000 4875 2125
+Wire Wire Line
+	5225 3000 5300 3000
+Connection ~ 5300 3000
+Wire Wire Line
+	5300 3000 5300 3875
+Wire Wire Line
+	5650 3000 5725 3000
+Connection ~ 5725 3000
+Wire Wire Line
+	5725 3000 5725 2125
+Wire Wire Line
+	4800 2125 4875 2125
+Connection ~ 4875 2125
+Wire Wire Line
+	4875 2125 4875 1250
+Wire Wire Line
+	5225 2125 5300 2125
+Connection ~ 5300 2125
+Wire Wire Line
+	5300 2125 5300 3000
+Wire Wire Line
+	5650 2125 5725 2125
+Connection ~ 5725 2125
+Wire Wire Line
+	5725 2125 5725 1250
+Wire Wire Line
+	4800 1250 4875 1250
+Connection ~ 4875 1250
+Wire Wire Line
+	4875 1250 4875 1000
+Wire Wire Line
+	5650 1250 5725 1250
+Connection ~ 5725 1250
+Wire Wire Line
+	5725 1250 5725 1000
+$Comp
+L MX_Alps_Hybrids:MX-6.25U MX105
+U 1 1 5CFE8FB9
+P 7175 5650
+F 0 "MX105" H 7261 5867 60  0000 C CNN
+F 1 "MX-6.25U" H 7261 5793 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-6.25U-Hotswap-ReversedStabilizers" H 7150 5625 60  0001 C CNN
+F 3 "" H 7150 5625 60  0001 C CNN
+	1    7175 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrids:MX-1.25U MX106
+U 1 1 5D03E266
+P 8875 5650
+F 0 "MX106" H 8961 5867 60  0000 C CNN
+F 1 "MX-1.25U" H 8961 5793 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1.25U-Hotswap" H 8850 5625 60  0001 C CNN
+F 3 "" H 8850 5625 60  0001 C CNN
+	1    8875 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrids:MX-1.25U MX107
+U 1 1 5D03E523
+P 9300 5650
+F 0 "MX107" H 9386 5867 60  0000 C CNN
+F 1 "MX-1.25U" H 9386 5793 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1.25U-Hotswap" H 9275 5625 60  0001 C CNN
+F 3 "" H 9275 5625 60  0001 C CNN
+	1    9300 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrids:MX-1.25U MX108
+U 1 1 5D03E6F5
+P 9725 5650
+F 0 "MX108" H 9811 5867 60  0000 C CNN
+F 1 "MX-1.25U" H 9811 5793 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1.25U-Hotswap" H 9700 5625 60  0001 C CNN
+F 3 "" H 9700 5625 60  0001 C CNN
+	1    9725 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrids:MX-1.25U MX109
+U 1 1 5D03E8D1
+P 10150 5650
+F 0 "MX109" H 10236 5867 60  0000 C CNN
+F 1 "MX-1.25U" H 10236 5793 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1.25U-Hotswap" H 10125 5625 60  0001 C CNN
+F 3 "" H 10125 5625 60  0001 C CNN
+	1    10150 5650
+	1    0    0    -1  
+$EndComp
+Text HLabel 10325 1800 2    50   3State ~ 0
+row0b
+Text HLabel 10325 2675 2    50   3State ~ 0
+row1b
+Text HLabel 10325 3550 2    50   3State ~ 0
+row2b
+Text HLabel 10325 4425 2    50   3State ~ 0
+row3b
+Text HLabel 10325 5300 2    50   3State ~ 0
+row4b
+Text HLabel 10325 6175 2    50   3State ~ 0
+row5b
+Wire Wire Line
+	1375 1800 1175 1800
+Connection ~ 1375 1800
+Wire Wire Line
+	1375 2675 1175 2675
+Connection ~ 1375 2675
+Wire Wire Line
+	1375 3550 1175 3550
+Connection ~ 1375 3550
+Wire Wire Line
+	1375 4425 1175 4425
+Connection ~ 1375 4425
+Wire Wire Line
+	1375 5300 1175 5300
+Connection ~ 1375 5300
+Wire Wire Line
+	1375 6175 1175 6175
+Connection ~ 1375 6175
+Connection ~ 10125 6175
+Connection ~ 10125 1800
+Connection ~ 10125 3550
+Wire Wire Line
+	6075 1250 6150 1250
+Connection ~ 6150 1250
+Wire Wire Line
+	6150 1000 6150 1250
+Wire Wire Line
+	6150 4750 6075 4750
+Wire Wire Line
+	6150 1250 6150 2125
+$Comp
+L MX_Alps_Hybrids:MX-1U MX85
+U 1 1 5C9A8BD7
+P 5900 4775
+F 0 "MX85" H 5986 4992 60  0000 C CNN
+F 1 "MX-1U" H 5986 4918 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 5875 4750 60  0001 C CNN
+F 3 "" H 5875 4750 60  0001 C CNN
+	1    5900 4775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6075 3875 6150 3875
+Connection ~ 6150 3875
+Wire Wire Line
+	6150 3875 6150 4750
+Wire Wire Line
+	6075 3000 6150 3000
+Connection ~ 6150 3000
+Wire Wire Line
+	6150 3000 6150 3875
+Wire Wire Line
+	6075 2125 6150 2125
+Connection ~ 6150 2125
+Wire Wire Line
+	6150 2125 6150 3000
+Wire Wire Line
+	6500 1250 6575 1250
+Wire Wire Line
+	6500 2125 6575 2125
+Wire Wire Line
+	6925 2125 7000 2125
+Connection ~ 7000 2125
+Wire Wire Line
+	7000 2125 7000 1250
+Wire Wire Line
+	6925 1250 7000 1250
+Connection ~ 7000 1250
+Wire Wire Line
+	7000 1250 7000 1000
+Wire Wire Line
+	6925 3000 7000 3000
+Connection ~ 7000 3000
+Wire Wire Line
+	7000 3000 7000 2125
+Wire Wire Line
+	6925 3875 7000 3875
+Connection ~ 7000 3875
+Wire Wire Line
+	7000 3875 7000 3000
+Wire Wire Line
+	6925 4750 7000 4750
+Wire Wire Line
+	7000 4750 7000 3875
+Wire Wire Line
+	6500 4750 6575 4750
+Wire Wire Line
+	6575 4750 6575 3875
+Connection ~ 6575 1250
+Wire Wire Line
+	6575 1250 6575 1000
+Connection ~ 6575 2125
+Wire Wire Line
+	6575 2125 6575 1250
+Wire Wire Line
+	6500 3000 6575 3000
+Connection ~ 6575 3000
+Wire Wire Line
+	6575 3000 6575 2125
+Wire Wire Line
+	6500 3875 6575 3875
+Connection ~ 6575 3875
+Wire Wire Line
+	6575 3875 6575 3000
+Wire Wire Line
+	7350 3875 7425 3875
+Wire Wire Line
+	7350 3000 7425 3000
+Wire Wire Line
+	7350 2125 7425 2125
+Wire Wire Line
+	7350 1250 7425 1250
+Wire Wire Line
+	7425 4750 7350 4750
+Connection ~ 7425 2125
+Wire Wire Line
+	7425 2125 7425 3000
+Connection ~ 7425 3000
+Wire Wire Line
+	7425 3000 7425 3875
+Connection ~ 7425 3875
+Wire Wire Line
+	7425 3875 7425 4750
+Wire Wire Line
+	7775 4750 7850 4750
+Wire Wire Line
+	8200 4750 8275 4750
+Wire Wire Line
+	8625 4750 8700 4750
+Wire Wire Line
+	9050 4750 9125 4750
+Wire Wire Line
+	9475 4750 9550 4750
+Wire Wire Line
+	9900 4750 9975 4750
+Wire Wire Line
+	9050 5625 9125 5625
+Wire Wire Line
+	9900 5625 9975 5625
+Wire Wire Line
+	10325 5625 10400 5625
+Wire Wire Line
+	8200 3875 8275 3875
+Wire Wire Line
+	8625 3875 8700 3875
+Wire Wire Line
+	7775 3875 7850 3875
+Wire Wire Line
+	9050 3875 9125 3875
+Wire Wire Line
+	9475 3875 9550 3875
+Wire Wire Line
+	10325 3875 10400 3875
+Wire Wire Line
+	10325 3000 10400 3000
+Wire Wire Line
+	9900 3000 9975 3000
+Wire Wire Line
+	9475 3000 9550 3000
+Wire Wire Line
+	9050 3000 9125 3000
+Wire Wire Line
+	8625 3000 8700 3000
+Wire Wire Line
+	8200 3000 8275 3000
+Wire Wire Line
+	7775 3000 7850 3000
+Wire Wire Line
+	7775 2125 7850 2125
+Wire Wire Line
+	8200 2125 8275 2125
+Wire Wire Line
+	8625 2125 8700 2125
+Wire Wire Line
+	9050 2125 9125 2125
+Wire Wire Line
+	9475 2125 9550 2125
+Wire Wire Line
+	9900 2125 9975 2125
+Wire Wire Line
+	10325 2125 10400 2125
+Wire Wire Line
+	10325 1250 10400 1250
+Wire Wire Line
+	9900 1250 9975 1250
+Wire Wire Line
+	9475 1250 9550 1250
+Wire Wire Line
+	9050 1250 9125 1250
+Wire Wire Line
+	8625 1250 8700 1250
+Wire Wire Line
+	8200 1250 8275 1250
+Wire Wire Line
+	9975 1000 9975 1250
+Connection ~ 9975 1250
+Wire Wire Line
+	9975 1250 9975 2125
+Connection ~ 9975 2125
+Wire Wire Line
+	9975 2125 9975 3000
+Connection ~ 9975 3000
+Connection ~ 9975 4750
+Wire Wire Line
+	9975 4750 9975 5625
+Wire Wire Line
+	9125 5625 9125 4750
+Connection ~ 9125 1250
+Wire Wire Line
+	9125 1250 9125 1000
+Connection ~ 9125 2125
+Wire Wire Line
+	9125 2125 9125 1250
+Connection ~ 9125 3000
+Wire Wire Line
+	9125 3000 9125 2125
+Connection ~ 9125 3875
+Wire Wire Line
+	9125 3875 9125 3000
+Connection ~ 9125 4750
+Wire Wire Line
+	9125 4750 9125 3875
+Wire Wire Line
+	8700 1000 8700 1250
+Connection ~ 8700 1250
+Wire Wire Line
+	8700 1250 8700 2125
+Connection ~ 8700 2125
+Wire Wire Line
+	8700 2125 8700 3000
+Connection ~ 8700 3000
+Wire Wire Line
+	8700 3000 8700 3875
+Connection ~ 8700 3875
+Wire Wire Line
+	8700 3875 8700 4750
+Wire Wire Line
+	8275 4750 8275 3875
+Connection ~ 8275 1250
+Wire Wire Line
+	8275 1250 8275 1000
+Connection ~ 8275 2125
+Wire Wire Line
+	8275 2125 8275 1250
+Connection ~ 8275 3000
+Wire Wire Line
+	8275 3000 8275 2125
+Connection ~ 8275 3875
+Wire Wire Line
+	8275 3875 8275 3000
+Wire Wire Line
+	7775 1250 7850 1250
+Wire Wire Line
+	7850 1000 7850 1250
+Connection ~ 7850 1250
+Wire Wire Line
+	7850 1250 7850 2125
+Connection ~ 7850 2125
+Wire Wire Line
+	7850 2125 7850 3000
+Connection ~ 7850 3000
+Wire Wire Line
+	7850 3000 7850 3875
+Connection ~ 7850 3875
+Wire Wire Line
+	7850 3875 7850 4750
+Wire Wire Line
+	9550 4750 9550 3875
+Connection ~ 9550 1250
+Wire Wire Line
+	9550 1250 9550 1000
+Connection ~ 9550 2125
+Wire Wire Line
+	9550 2125 9550 1250
+Connection ~ 9550 3000
+Wire Wire Line
+	9550 3000 9550 2125
+Connection ~ 9550 3875
+Wire Wire Line
+	9550 3875 9550 3000
+Connection ~ 10400 1250
+Wire Wire Line
+	10400 1250 10400 1000
+Connection ~ 10400 3000
+Connection ~ 10400 3875
+Wire Wire Line
+	10400 3875 10400 3000
+Wire Wire Line
+	10400 3000 10400 2125
+Wire Wire Line
+	10400 2125 10400 1250
+Connection ~ 10400 2125
+Connection ~ 10125 2675
+Wire Wire Line
+	9700 2675 10125 2675
+Wire Wire Line
+	10125 6175 10325 6175
+Connection ~ 10125 4425
+Wire Wire Line
+	10125 4425 10325 4425
+Wire Wire Line
+	10125 3550 10325 3550
+Wire Wire Line
+	10125 2675 10325 2675
+Wire Wire Line
+	10125 1800 10325 1800
+Connection ~ 7425 1250
+Wire Wire Line
+	7425 1250 7425 2125
+Wire Wire Line
+	7425 1000 7425 1250
+Connection ~ 7150 1800
+Wire Wire Line
+	7150 1800 7575 1800
+Wire Wire Line
+	6725 1800 7150 1800
+$Comp
+L MX_Alps_Hybrids:MX-2U MX39
+U 1 1 5E0F7472
+P 10150 2150
+F 0 "MX39" H 10236 2367 60  0000 C CNN
+F 1 "MX-2U" H 10236 2293 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-2U-Hotswap" H 10125 2125 60  0001 C CNN
+F 3 "" H 10125 2125 60  0001 C CNN
+	1    10150 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrids:MX-1.5U MX60
+U 1 1 5E0F951F
+P 10150 3025
+F 0 "MX60" H 10236 3242 60  0000 C CNN
+F 1 "MX-1.5U" H 10236 3168 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1.5U-Hotswap" H 10125 3000 60  0001 C CNN
+F 3 "" H 10125 3000 60  0001 C CNN
+	1    10150 3025
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrids:MX-2.25U MX77
+U 1 1 5E0F9E24
+P 10150 3900
+F 0 "MX77" H 10236 4117 60  0000 C CNN
+F 1 "MX-2.25U" H 10236 4043 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-2.25U-Hotswap" H 10125 3875 60  0001 C CNN
+F 3 "" H 10125 3875 60  0001 C CNN
+	1    10150 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 5300 10325 5300
+Wire Wire Line
+	10400 3875 10400 5625
+$Comp
+L MX_Alps_Hybrids:MX-2.75U MX94
+U 1 1 5E12BFE3
+P 9725 4775
+F 0 "MX94" H 9811 4992 60  0000 C CNN
+F 1 "MX-2.75U" H 9811 4918 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-2.75U-Hotswap" H 9700 4750 60  0001 C CNN
+F 3 "" H 9700 4750 60  0001 C CNN
+	1    9725 4775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 5300 5450 5300
+Wire Wire Line
+	5300 3875 5300 5625
+Wire Wire Line
+	9275 4425 10125 4425
+Wire Wire Line
+	9975 3000 9975 4750
+Wire Wire Line
+	9550 4750 9550 5625
+Wire Wire Line
+	9550 5625 9475 5625
+Connection ~ 9550 4750
+Connection ~ 9275 6175
+Wire Wire Line
+	9275 6175 9700 6175
+Connection ~ 8850 6175
+Wire Wire Line
+	8850 6175 9275 6175
+Wire Wire Line
+	7425 4750 7425 5625
+Wire Wire Line
+	7425 5625 7350 5625
+Connection ~ 7425 4750
+Wire Wire Line
+	7150 6175 8850 6175
+Text HLabel 10400 1000 1    50   BiDi ~ 0
+colJ
+$EndSCHEMATC
