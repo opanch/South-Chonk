@@ -16,3 +16,9 @@ Full-sized Southpaw keyboard PCB commissioned by [/u/Drunknikov](https://www.red
 ### Disclaimer
 
 If you wish to run a groupbuy of this PCB, please send me an e-mail at mfmayol@up.edu.ph
+
+
+###Keyboard Firmware 
+
+- Added firmware file to compile for your needs 
+- Added ASCII art to make it easy to read
